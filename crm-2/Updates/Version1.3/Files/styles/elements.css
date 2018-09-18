@@ -1,0 +1,42 @@
+.field-area { border: 1px solid #EEE; border-radius: 4px; padding: 10px; margin-top: 10px; }
+.field_options { display: none; }
+.finance-blob-unit { font-size: 14px; color: #000;  }
+.finance-blob { display: inline-block; margin: 5px; font-size: 11px; color: #b4b4b4; width: 150px; }
+.task-icon { border-radius: 16px; width: 30px; }
+.midplz { vertical-align: middle; }
+.task-blob-title { font-size: 11px; margin-bottom: 2px; }
+.ui-datepicker{z-index: 9999999 !important};
+
+.new-ticket { border-left: 2px solid #62b457; }
+.task-blob-date { font-size: 11px; color: #DDD; }
+
+#notifications-scroll { overflow-x: hidden; }
+#email-scroll { overflow-x: hidden; }
+#projects-scroll { overflow-x: hidden; }
+#timer-scroll { overflow-x: hidden; }
+
+/* Timer */
+.timer-area { background: #f8f8f8; border-radius: 4px; padding: 10px; border: 1px solid #c5c5c5; position: relative; }
+.large-clock { font-size: 48px; }
+.timer-date { cursor: pointer; position: absolute; top: 0px; right: 0px; padding: 5px; background: #d4dce2; text-align: center; font-size: 11px; color: #494949; border-radius: 0px 4px 0px 4px; }
+.timer-details { text-align: center;  }
+.timer-details-large { font-size: 24px; }
+.timer-small-details { clear: both; font-size: 12px; text-align: center; }
+.timer-area-wrapper { width: 300px; display: inline-block; height: 120px; vertical-align: top; margin: 5px; }
+.timer-wrapper { margin-top: 20px;  }
+.timer-user { position: absolute; top: 10px; left: 10px; }
+.live-timer { border-left: 2px solid #3da91d; }
+.no-display { display: none; }
+
+.user_role_button { border: 1px solid #1e8ed0; font-weight: 600; border-radius: 4px; padding: 5px; font-size: 11px; margin: 1px; margin-bottom: 2px; vertical-align: top; display: inline-block;}
+.user_role_button:hover { background: #e3efff; }
+.user_role_button.admin { border: 1px solid #1bbc42 !important; color: #1bbc42; }
+.user_role_button.project { border: 1px solid #1e8ed0 !important; color: #1e8ed0; }
+.user_role_button.client { border: 1px solid #e46825 !important; color: #e46825;}
+.user_role_button.banned { border: 1px solid #e46825 !important; color: #eb271c;}
+table.dataTable { width: 100% !important; }
+
+.fp-project { display: inline-block; margin: 5px; padding: 10px; border: 1px solid #DDD; border-radius: 4px; text-align: center; min-width: 140px;}
+.tool-item { display: inline-block; margin: 5px; padding: 10px; border: 1px solid #DDD; border-radius: 4px; text-align: center; min-width: 140px;}
+
+

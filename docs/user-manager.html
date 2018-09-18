@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_32.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_48.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_96.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_144.ico"/>
+        <link href="./assets/f4229b5b/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/c2375654/github-gist.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/fonts.min.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/bootstrap.min.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/api.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/style.css" rel="stylesheet">
+<script src="./assets/a94e8dbd/jquery.js"></script>
+<script src="./assets/f4229b5b/js/bootstrap.js"></script>
+<script src="./assets/aec6ec4/jssearch.js"></script>    <title>User Manager - Users - Easy Forms</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w182" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w182-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html"><span class="app-name">Easy Forms</span></a></div><div id="w182-collapse" class="collapse navbar-collapse"><ul id="w183" class="navbar-nav nav"><li><a href="./index.html">Documentation</a></li></ul>
+    <div class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+            <input id="searchbox" type="text" class="form-control" placeholder="Search">
+        </div>
+    </div>
+    </div></div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    <div class="container">
+        
+<div class="row">
+    <div class="col-md-2">
+                <div id="navigation" class="list-group"><a class="list-group-item" href="#navigation-176" data-toggle="collapse" data-parent="#navigation">First steps <b class="caret"></b></a><div id="navigation-176" class="submenu panel-collapse collapse"><a class="list-group-item" href="./intro-easy-forms.html">About Easy Forms</a>
+<a class="list-group-item" href="./system-requirements.html">Requirements</a>
+<a class="list-group-item" href="./start-installation.html">Installing Easy Forms</a>
+<a class="list-group-item" href="./start-customization.html">Customizing Easy Forms</a>
+<a class="list-group-item" href="./start-upgrading.html">Upgrading Easy Forms</a>
+<a class="list-group-item" href="./email-setup.html">Email Setup</a></div>
+<a class="list-group-item" href="#navigation-177" data-toggle="collapse" data-parent="#navigation">Forms <b class="caret"></b></a><div id="navigation-177" class="submenu panel-collapse collapse"><a class="list-group-item" href="./form-manager.html">Form Manager</a>
+<a class="list-group-item" href="./form-builder.html">Form Builder</a>
+<a class="list-group-item" href="./rule-builder.html">Rule Builder</a>
+<a class="list-group-item" href="./submission-manager.html">Submission Manager</a>
+<a class="list-group-item" href="./form-report-builder.html">Report Builder</a>
+<a class="list-group-item" href="./form-analytics.html">In-App Analytics</a>
+<a class="list-group-item" href="./form-widget.html">Form Widget</a></div>
+<a class="list-group-item" href="#navigation-178" data-toggle="collapse" data-parent="#navigation">Templates <b class="caret"></b></a><div id="navigation-178" class="submenu panel-collapse collapse"><a class="list-group-item" href="./template-manager.html">Template Manager</a></div>
+<a class="list-group-item" href="#navigation-179" data-toggle="collapse" data-parent="#navigation">Themes <b class="caret"></b></a><div id="navigation-179" class="submenu panel-collapse collapse"><a class="list-group-item" href="./theme-manager.html">Theme Manager</a></div>
+<a class="list-group-item active" href="#navigation-180" data-toggle="collapse" data-parent="#navigation">Users <b class="caret"></b></a><div id="navigation-180" class="submenu panel-collapse collapse in"><a class="list-group-item active" href="./user-manager.html">User Manager</a>
+<a class="list-group-item" href="./membership.html">Membership</a></div>
+<a class="list-group-item" href="#navigation-181" data-toggle="collapse" data-parent="#navigation">Add-ons <b class="caret"></b></a><div id="navigation-181" class="submenu panel-collapse collapse"><a class="list-group-item" href="./addon-manager.html">Add-on Manager</a>
+<a class="list-group-item" href="./addon-google-analytics.html">Google Analytics</a>
+<a class="list-group-item" href="./addon-webhooks.html">Webhooks</a>
+<a class="list-group-item" href="./addon-paypal.html">Paypal</a>
+<a class="list-group-item" href="./addon-aweber.html">AWeber</a></div></div>    </div>
+    <div class="col-md-9 guide-content" role="main">
+        <h1>User Manager <span id="user-manager"></span><a href="#user-manager" class="hashlink">&para;</a></h1>
+<div class="toc"><ol><li><a href="#introduction">Introduction</a></li>
+<li><a href="#user-roles">User Roles</a></li>
+<li><a href="#create-a-user">Create a User</a></li>
+<li><a href="#updating-a-user">Updating a User</a></li>
+<li><a href="#delete-a-user">Delete a User</a></li>
+<li><a href="#grant-remove-form-access-to-a-user">Grant / Remove Form access to a User</a></li>
+<li><a href="#ban-a-user">Ban a User</a></li></ol></div>
+<h2>Introduction <span id="introduction"></span><a href="#introduction" class="hashlink">&para;</a></h2><p>Easy Forms has a special area for managing users. Letting you create users who have only access to information collected by certain forms.</p>
+<p><img src="images/user-manager.png" alt="User Manager" /></p>
+<h2>User Roles <span id="user-roles"></span><a href="#user-roles" class="hashlink">&para;</a></h2><p>There are two types of roles:</p>
+<ul>
+<li><strong>Admin</strong>: A user with access to the entire application, including site configuration, user management and all forms.</li>
+<li><strong>Basic User</strong>: A user who can access the application but do not have access to any information. You should grant access to one or more forms in order to let him see the information. However, in any case, a user can create or manage forms, templates, themes, users or site configuration. This role has been created to allow your customers not only get notifications in their emails, but also access "Easy Forms" to get more information.</li>
+<li><strong>Advanced User</strong>: Advanced users can create forms and manage them freely. And also they will be able to create their own themes and use them in their forms. Moreover, they can access the Template Manager to create their own templates and use templates created by administrators.</li>
+</ul>
+<h2>Create a User <span id="create-a-user"></span><a href="#create-a-user" class="hashlink">&para;</a></h2><p>To create a user go to the User Manager by clicking on the Users link in the navigation bar. Then, you must perform the following steps:</p>
+<ol>
+<li>Click on the <em>Create User</em> button.</li>
+<li>Fill the account information:<pre><code class="hljs "> - Username
+ - Email
+ - Password
+ - Status
+ - Role
+</code></pre>
+</li>
+<li>Complete the profile information:<pre><code class="hljs "> - Full Name
+ - Company
+ - Avatar
+ - Timezone
+ - Language
+</code></pre>
+</li>
+<li>Click on the <em>Create</em> button.</li>
+</ol>
+<blockquote><p><strong>Note:</strong> When you define the user status as 'Inactive', users must confirm their email before they can access the application.</p>
+</blockquote>
+<h2>Updating a User <span id="updating-a-user"></span><a href="#updating-a-user" class="hashlink">&para;</a></h2><p>To update a user go to the User Manager by clicking on the Users link in the navigation bar. Then, you must perform the following steps:</p>
+<ol>
+<li>Click the <em>Actions</em> button of the User to edit.</li>
+<li>Press <em>Update</em>.</li>
+<li>Change the account information.</li>
+<li>Modify the profile information.</li>
+<li>Click the <em>Update</em> button.</li>
+</ol>
+<h2>Delete a User <span id="delete-a-user"></span><a href="#delete-a-user" class="hashlink">&para;</a></h2><p>To delete a user go to the User Manager by clicking on the Users link in the navigation bar. Then, you must perform the following steps:</p>
+<ol>
+<li>Click the <em>Actions</em> button of the User to edit.</li>
+<li>Press <em>Delete</em>.</li>
+<li>A pop-up window will appear asking for confirmation. You must click OK.</li>
+<li>User Manager will reload and the User will be deleted.</li>
+</ol>
+<blockquote><p><strong>Note:</strong> Please note that all user information will be deleted and cannot be recovered.</p>
+</blockquote>
+<h2>Grant / Remove Form access to a User <span id="grant-remove-form-access-to-a-user"></span><a href="#grant-remove-form-access-to-a-user" class="hashlink">&para;</a></h2><p>To grant / remove access to one or more forms, you must go to the User Manager by clicking on the Users link in the navigation bar. Then, you must perform the following steps:</p>
+<ol>
+<li>Click the <em>Actions</em> button of the User you are going to grant/remove access.</li>
+<li>Click <em>Update</em>.</li>
+<li>Click on the <em>Grant access</em> field and select one by one the forms that the user will access.</li>
+<li>Click <em>Save</em>.</li>
+</ol>
+<blockquote><p><strong>Note:</strong> The field Grant Access is only visible when the user's role is 'User'. An Admin user has access to all forms</p>
+</blockquote>
+<p><img src="images/user-management-grant-access-to-forms.png" alt="Grant / Remove Form access to a User" /></p>
+<h2>Ban a User <span id="ban-a-user"></span><a href="#ban-a-user" class="hashlink">&para;</a></h2><p>To prevent a user from accessing the application, you must go to the User Manager by clicking on the Users link in the navigation bar. Then, you must perform the following steps:</p>
+<ol>
+<li>Click the <em>Actions</em> button of the User you are going to ban.</li>
+<li>Click <em>Update</em>.</li>
+<li>Activate the field <em>Banned</em>.</li>
+<li>Enter the <em>Ban Reason</em>.</li>
+<li>Click <em>Update</em>.</li>
+</ol>
+<blockquote><p><strong>Note:</strong> When a banned user tries to log in, a message will appear informing his situation (the ban reason).</p>
+</blockquote>
+        <div class="toplink"><a href="#" class="h1" title="go to top"><span class="glyphicon glyphicon-arrow-up"></a></div>
+    </div>
+</div>
+
+    </div>
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="pull-left">&copy; Easy forms 2015 - 2017</p>
+        <p class="pull-right">
+            <small>Page generated on Tue, 20 Jun 2017 16:40:42 +0000</small>
+        </p>
+    </div>
+</footer>
+
+<script type="text/javascript">jQuery(document).ready(function () {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>

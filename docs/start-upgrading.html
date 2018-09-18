@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_32.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_48.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_96.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_144.ico"/>
+        <link href="./assets/f4229b5b/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/c2375654/github-gist.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/fonts.min.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/bootstrap.min.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/api.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/style.css" rel="stylesheet">
+<script src="./assets/a94e8dbd/jquery.js"></script>
+<script src="./assets/f4229b5b/js/bootstrap.js"></script>
+<script src="./assets/aec6ec4/jssearch.js"></script>    <title>Upgrading Easy Forms - First steps - Easy Forms</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w142" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w142-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html"><span class="app-name">Easy Forms</span></a></div><div id="w142-collapse" class="collapse navbar-collapse"><ul id="w143" class="navbar-nav nav"><li><a href="./index.html">Documentation</a></li></ul>
+    <div class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+            <input id="searchbox" type="text" class="form-control" placeholder="Search">
+        </div>
+    </div>
+    </div></div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    <div class="container">
+        
+<div class="row">
+    <div class="col-md-2">
+                <div id="navigation" class="list-group"><a class="list-group-item active" href="#navigation-136" data-toggle="collapse" data-parent="#navigation">First steps <b class="caret"></b></a><div id="navigation-136" class="submenu panel-collapse collapse in"><a class="list-group-item" href="./intro-easy-forms.html">About Easy Forms</a>
+<a class="list-group-item" href="./system-requirements.html">Requirements</a>
+<a class="list-group-item" href="./start-installation.html">Installing Easy Forms</a>
+<a class="list-group-item" href="./start-customization.html">Customizing Easy Forms</a>
+<a class="list-group-item active" href="./start-upgrading.html">Upgrading Easy Forms</a>
+<a class="list-group-item" href="./email-setup.html">Email Setup</a></div>
+<a class="list-group-item" href="#navigation-137" data-toggle="collapse" data-parent="#navigation">Forms <b class="caret"></b></a><div id="navigation-137" class="submenu panel-collapse collapse"><a class="list-group-item" href="./form-manager.html">Form Manager</a>
+<a class="list-group-item" href="./form-builder.html">Form Builder</a>
+<a class="list-group-item" href="./rule-builder.html">Rule Builder</a>
+<a class="list-group-item" href="./submission-manager.html">Submission Manager</a>
+<a class="list-group-item" href="./form-report-builder.html">Report Builder</a>
+<a class="list-group-item" href="./form-analytics.html">In-App Analytics</a>
+<a class="list-group-item" href="./form-widget.html">Form Widget</a></div>
+<a class="list-group-item" href="#navigation-138" data-toggle="collapse" data-parent="#navigation">Templates <b class="caret"></b></a><div id="navigation-138" class="submenu panel-collapse collapse"><a class="list-group-item" href="./template-manager.html">Template Manager</a></div>
+<a class="list-group-item" href="#navigation-139" data-toggle="collapse" data-parent="#navigation">Themes <b class="caret"></b></a><div id="navigation-139" class="submenu panel-collapse collapse"><a class="list-group-item" href="./theme-manager.html">Theme Manager</a></div>
+<a class="list-group-item" href="#navigation-140" data-toggle="collapse" data-parent="#navigation">Users <b class="caret"></b></a><div id="navigation-140" class="submenu panel-collapse collapse"><a class="list-group-item" href="./user-manager.html">User Manager</a>
+<a class="list-group-item" href="./membership.html">Membership</a></div>
+<a class="list-group-item" href="#navigation-141" data-toggle="collapse" data-parent="#navigation">Add-ons <b class="caret"></b></a><div id="navigation-141" class="submenu panel-collapse collapse"><a class="list-group-item" href="./addon-manager.html">Add-on Manager</a>
+<a class="list-group-item" href="./addon-google-analytics.html">Google Analytics</a>
+<a class="list-group-item" href="./addon-webhooks.html">Webhooks</a>
+<a class="list-group-item" href="./addon-paypal.html">Paypal</a>
+<a class="list-group-item" href="./addon-aweber.html">AWeber</a></div></div>    </div>
+    <div class="col-md-9 guide-content" role="main">
+        <h1>Upgrading Easy Forms <span id="upgrading-easy-forms"></span><a href="#upgrading-easy-forms" class="hashlink">&para;</a></h1>
+<div class="toc"><ol><li><a href="#introduction">Introduction</a></li>
+<li><a href="#upgrade-steps">Upgrade Steps</a></li></ol></div>
+<h2>Introduction <span id="introduction"></span><a href="#introduction" class="hashlink">&para;</a></h2><p>This document describes how to upgrade your Easy Forms application from 1.x to 1.4.2.</p>
+<p><img src="images/update-script.png" alt="Easy Forms - Update Script" /></p>
+<p>If you encounter errors during this process:</p>
+<ol>
+<li>Note any error messages you see (take a screenshoot or copy your logs).</li>
+<li>Restore your site to its previous state, using the file and database backups you created before you started the upgrade process. Do not attempt to do further updates on a site that had upgrade problems.</li>
+<li>Contact us <a href="http://codecanyon.net/item/easy-forms-advanced-form-builder-and-manager/14176957/support">via our support page on CodeCanyon</a>.</li>
+</ol>
+<blockquote><p><strong>Note:</strong> All directories mentioned in this document are relative to your Easy Forms installation directory.</p>
+</blockquote>
+<h2>Upgrade Steps <span id="upgrade-steps"></span><a href="#upgrade-steps" class="hashlink">&para;</a></h2><ol>
+<li><strong>Make a full backup</strong> of files, directories, and your database before starting, and save it outside your Easy Forms installation directory.</li>
+<li><strong>Remove all old files</strong> and directories, except the followings:<ul>
+<li><code>config/db.php</code>: Stores the database configuration.</li>
+<li><code>static_files/uploads</code>: Stores files uploaded by your users when they submit their forms.</li>
+<li><code>static_files/images/avatars</code>: Stores your registered users' avatars.</li>
+<li>Any custom directories and files you added elsewhere.</li>
+</ul>
+</li>
+<li>If you made modifications to files like <code>.htaccess</code> or <code>robots.txt</code> or <code>config/params.php</code>, you will need to re-apply them from your backup, after the new files are in place.</li>
+<li><strong>Upload the latest Easy Forms release</strong> to your Easy Forms directory, except for the following files and directories:<ul>
+<li><code>config/db.php</code></li>
+<li><code>static_files/uploads</code></li>
+<li><code>static_files/images/avatars</code></li>
+</ul>
+</li>
+<li>Re-apply any modifications to files such as .htaccess or robots.txt or config/params.php and <a href="start-installation.html">set up directory permissions</a> (only directories).</li>
+<li><p><strong>Run update</strong> script by visiting <a href="http://www.example.com/update">http://www.example.com/update</a> (replace www.example.com with your domain name). This will update the database tables. But if you are unable to access the update script, do the following:</p>
+<ul>
+<li>Open <code>config/web.php</code> with a text editor.</li>
+<li>Find the line that say:
+ <code>// 'update' =&gt; ['class' =&gt; 'app\modules\update\Module'],</code></li>
+<li>Uncomment this line by removing the ‘//’ characters.
+ <code>'update' =&gt; ['class' =&gt; 'app\modules\update\Module'],</code></li>
+<li>Try to run the update script again.</li>
+<li>Once the update is done, this line must be commented out.</li>
+</ul>
+</li>
+<li><p>Try to run the update script again and make sure that the ‘Page not found’ message is displayed.</p>
+</li>
+</ol>
+<p><strong>And that’s it!</strong> The upgrade is now complete. Your upgraded Easy Forms application is now ready to use. Enjoy!</p>
+<blockquote><p><strong>Note:</strong> It is always recommended try an upgrade on a test copy of your site before applying it to your live site. Even minor updates can cause your site's behavior change.</p>
+</blockquote>
+        <div class="toplink"><a href="#" class="h1" title="go to top"><span class="glyphicon glyphicon-arrow-up"></a></div>
+    </div>
+</div>
+
+    </div>
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="pull-left">&copy; Easy forms 2015 - 2017</p>
+        <p class="pull-right">
+            <small>Page generated on Tue, 20 Jun 2017 16:40:42 +0000</small>
+        </p>
+    </div>
+</footer>
+
+<script type="text/javascript">jQuery(document).ready(function () {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>

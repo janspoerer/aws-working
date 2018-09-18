@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_32.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_48.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_96.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_144.ico"/>
+        <link href="./assets/f4229b5b/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/c2375654/github-gist.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/fonts.min.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/bootstrap.min.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/api.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/style.css" rel="stylesheet">
+<script src="./assets/a94e8dbd/jquery.js"></script>
+<script src="./assets/f4229b5b/js/bootstrap.js"></script>
+<script src="./assets/aec6ec4/jssearch.js"></script>    <title>Form Manager - Forms - Easy Forms</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w70" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w70-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html"><span class="app-name">Easy Forms</span></a></div><div id="w70-collapse" class="collapse navbar-collapse"><ul id="w71" class="navbar-nav nav"><li><a href="./index.html">Documentation</a></li></ul>
+    <div class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+            <input id="searchbox" type="text" class="form-control" placeholder="Search">
+        </div>
+    </div>
+    </div></div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    <div class="container">
+        
+<div class="row">
+    <div class="col-md-2">
+                <div id="navigation" class="list-group"><a class="list-group-item" href="#navigation-64" data-toggle="collapse" data-parent="#navigation">First steps <b class="caret"></b></a><div id="navigation-64" class="submenu panel-collapse collapse"><a class="list-group-item" href="./intro-easy-forms.html">About Easy Forms</a>
+<a class="list-group-item" href="./system-requirements.html">Requirements</a>
+<a class="list-group-item" href="./start-installation.html">Installing Easy Forms</a>
+<a class="list-group-item" href="./start-customization.html">Customizing Easy Forms</a>
+<a class="list-group-item" href="./start-upgrading.html">Upgrading Easy Forms</a>
+<a class="list-group-item" href="./email-setup.html">Email Setup</a></div>
+<a class="list-group-item active" href="#navigation-65" data-toggle="collapse" data-parent="#navigation">Forms <b class="caret"></b></a><div id="navigation-65" class="submenu panel-collapse collapse in"><a class="list-group-item active" href="./form-manager.html">Form Manager</a>
+<a class="list-group-item" href="./form-builder.html">Form Builder</a>
+<a class="list-group-item" href="./rule-builder.html">Rule Builder</a>
+<a class="list-group-item" href="./submission-manager.html">Submission Manager</a>
+<a class="list-group-item" href="./form-report-builder.html">Report Builder</a>
+<a class="list-group-item" href="./form-analytics.html">In-App Analytics</a>
+<a class="list-group-item" href="./form-widget.html">Form Widget</a></div>
+<a class="list-group-item" href="#navigation-66" data-toggle="collapse" data-parent="#navigation">Templates <b class="caret"></b></a><div id="navigation-66" class="submenu panel-collapse collapse"><a class="list-group-item" href="./template-manager.html">Template Manager</a></div>
+<a class="list-group-item" href="#navigation-67" data-toggle="collapse" data-parent="#navigation">Themes <b class="caret"></b></a><div id="navigation-67" class="submenu panel-collapse collapse"><a class="list-group-item" href="./theme-manager.html">Theme Manager</a></div>
+<a class="list-group-item" href="#navigation-68" data-toggle="collapse" data-parent="#navigation">Users <b class="caret"></b></a><div id="navigation-68" class="submenu panel-collapse collapse"><a class="list-group-item" href="./user-manager.html">User Manager</a>
+<a class="list-group-item" href="./membership.html">Membership</a></div>
+<a class="list-group-item" href="#navigation-69" data-toggle="collapse" data-parent="#navigation">Add-ons <b class="caret"></b></a><div id="navigation-69" class="submenu panel-collapse collapse"><a class="list-group-item" href="./addon-manager.html">Add-on Manager</a>
+<a class="list-group-item" href="./addon-google-analytics.html">Google Analytics</a>
+<a class="list-group-item" href="./addon-webhooks.html">Webhooks</a>
+<a class="list-group-item" href="./addon-paypal.html">Paypal</a>
+<a class="list-group-item" href="./addon-aweber.html">AWeber</a></div></div>    </div>
+    <div class="col-md-9 guide-content" role="main">
+        <h1>Form Manager <span id="form-manager"></span><a href="#form-manager" class="hashlink">&para;</a></h1>
+<div class="toc"><ol><li><a href="#introduction">Introduction</a></li>
+<li><a href="#create-a-form">Create a form</a></li>
+<li><a href="#view-form-record">View Form Record</a></li>
+<li><a href="#update-a-form">Update a Form</a></li>
+<li><a href="#save-form-as-template">Save Form as Template</a></li>
+<li><a href="#advanced-form-settings">Advanced Form Settings</a></li>
+<li><a href="#reset-stats">Reset Stats</a></li>
+<li><a href="#delete-a-form">Delete a form</a></li>
+<li><a href="#add-conditional-logic-to-a-form">Add conditional logic to a form</a></li>
+<li><a href="#publish-and-share-a-form">Publish and Share a Form</a></li>
+<li><a href="#apply-a-theme-to-the-form">Apply a theme to the form</a></li></ol></div>
+<h2>Introduction <span id="introduction"></span><a href="#introduction" class="hashlink">&para;</a></h2><p>Form Manager is the application most important part. You can see here all the forms you have been created in Easy Forms, plus all the actions that can be performed with each. For example, you can access to the users submissions, create reports, view statistics and more.</p>
+<p><img src="images/form-manager.png" alt="Easy Forms - Form Manager" /></p>
+<blockquote><p><strong>Note:</strong> To access the Form Manager click "Forms" menu in the navigation bar.</p>
+</blockquote>
+<h2>Create a form <span id="create-a-form"></span><a href="#create-a-form" class="hashlink">&para;</a></h2><blockquote><p>Before you create your first form, please read <a href="form-builder.html">the Form Builder documentation</a>.</p>
+</blockquote>
+<p>If you are on the Dashboard or in the Form Manager, follow these steps:</p>
+<ol>
+<li>Click "Create Form"</li>
+<li>Drag and drop all the fields that your form needs.</li>
+<li>Drag and drop one button or more, according to your needs.</li>
+<li>Click "Save Form". A modal window will appear with 3 options:<ul>
+<li>Continue editing the form.</li>
+<li>Go to Advanced Form Settings</li>
+<li>Go to Form Manager</li>
+</ul>
+</li>
+</ol>
+<p><img src="images/form-manager-create-form.png" alt="Easy Forms - Create a form" /></p>
+<blockquote><p><strong>Note:</strong> If you close the modal window without choosing one of these three options, when you "Save" again, you create another form and not edit the already created. This option can be useful if you want to create several similar forms quickly.</p>
+</blockquote>
+<h2>View Form Record <span id="view-form-record"></span><a href="#view-form-record" class="hashlink">&para;</a></h2><p>To view the Form Record, click on the form name in the Form Manager. You can view from here its configuration and access all your options.</p>
+<p><img src="images/form-manager-view-record.png" alt="Easy Forms - View Form Record" /></p>
+<h2>Update a Form <span id="update-a-form"></span><a href="#update-a-form" class="hashlink">&para;</a></h2><blockquote><p>If you have questions about updating your first form, please read <a href="form-builder.html">the Form Builder documentation</a>.</p>
+</blockquote>
+<p>Updating a form can be done in two ways:</p>
+<ol>
+<li>From the Form Manager<ul>
+<li>Locate the form to update</li>
+<li>Click on the "Actions" button and select "Update"</li>
+</ul>
+</li>
+<li>From the Form Record<ul>
+<li>To access the Form Record click the name of the form</li>
+<li>Then click the "Update" button (the pencil icon)</li>
+</ul>
+</li>
+<li>Drag and drop one button or more, according to your needs.</li>
+<li>Click "Save Form".</li>
+</ol>
+<p><img src="images/form-manager-update-form.png" alt="Easy Forms - Update a Form" /></p>
+<blockquote><p><strong>Note:</strong> While you can update a form at any time, the information gathered by them (submissions and reports) may be affected or lose coherence.</p>
+</blockquote>
+<h2>Save Form as Template <span id="save-form-as-template"></span><a href="#save-form-as-template" class="hashlink">&para;</a></h2><p>To save your Form as a Template, follow these steps:</p>
+<ol>
+<li>Go to the <a href="form-builder.html">Form Builder</a></li>
+<li>Click the <em>Up Arrow</em> (At the right side of the "Save" button)</li>
+<li>Click "<em>Save Form As Template</em>"</li>
+<li>Then you will be redirected to the <a href="template-manager.html">Template Manager</a>.</li>
+</ol>
+<p><img src="images/save-form-as-template.png" alt="Easy Forms - Save Form as Template" /></p>
+<h2>Advanced Form Settings <span id="advanced-form-settings"></span><a href="#advanced-form-settings" class="hashlink">&para;</a></h2><p>To access the Form Settings, you must be in the Form Manager. Then perform the following steps:</p>
+<ol>
+<li>Click on the name of the form you want to set</li>
+<li>Click on "Settings" (the gear icon)</li>
+</ol>
+<p>In Settings, you will see 4 tabs. Each of these tabs contains the setting of a form aspect:</p>
+<h3>1. Form Settings <span id="1-form-settings"></span><a href="#1-form-settings" class="hashlink">&para;</a></h3><p>It is the first tab of the Form Settings and is displayed by default. From here you can set up:</p>
+<ul>
+<li><strong>Form Name</strong>: Displayed on the application administration pages and as the title of the form public page.</li>
+<li><strong>Language</strong>: This language will be used to display form messages. For example, validation errors. Note that you can <a href="start-customization.html#add-language">add another language to the application</a>.</li>
+<li><strong>Status</strong>: Indicates if the form is being shown. If set to Off, the form is no longer displayed to the user and instead appears a message indicating that the form is disabled and does not accept more submissions.</li>
+<li><strong>Message</strong>: Sets the message to be displayed to the user when the form is disabled (Off).</li>
+<li><strong>Schedule</strong> Form Activity: Set the start an end date in which the Form must be active (ON) Before and after it, the form is automatically deactivated.</li>
+<li><strong>Start Date</strong>: Select the date on which the form will be activated.</li>
+<li><strong>End Date</strong>: Select the date on which the form will be deactivated.</li>
+<li><strong>Save DB</strong>: Indicates if form submissions must be stored in the database or not. In any case, this does not affect each emailing entry.</li>
+<li><strong>Analytics</strong>: Enable/disable monitoring the form by the application.</li>
+<li><strong>Spam filter</strong>: Indicates if the form should use the honeypot technique to filter submissions made by real users from the ones made by bots (spam).</li>
+<li><strong>Use password</strong>: Enable or disable the form protection by using password. If the option is enabled, you should fill the Password field. Otherwise the form will not be saved and instead, a validation error will be displayed. By default is OFF.</li>
+<li><strong>Authorized URLs</strong>: To prevent a third party from embedding your Form on their own website, your form can be restricted to a list of URLs that you authorize.</li>
+<li><strong>No validate</strong>: Let you disable the fields validation in the client side, by the browser. Note that validation on the server side will not be disabled. It's recommended to have this option in Off.</li>
+<li><strong>Autocomplete</strong>: Enables the browser's autocomplete to forms that have been previously filled. By default is ON.</li>
+<li><strong>Save &amp; Resume later</strong>: The browser automatically save the information entered by a user so a Form can be partially filled and then be resumed.</li>
+<li><strong>Limit total number of submission</strong>: Specify the maximum number of submissions that the form will accept in a period of time.</li>
+<li><strong>Total Number</strong>: Total number of submissions to be accepted.</li>
+<li><strong>Per Time Period</strong>: Period in which the number is counted.</li>
+<li><strong>Limit submissions from the same IP</strong>: Sets the maximum number of submissions that the Form can receive from the same user (by IP) in a period of time.</li>
+<li><strong>Max Number</strong>: Maximum number of submissions allowed.</li>
+<li><strong>Per Time Period</strong>: Period in which the number is counted.</li>
+</ul>
+<p><img src="images/form-manager-form-settings.png" alt="Easy Forms - Form Settings" /></p>
+<blockquote><p><strong>Note:</strong> There are conditionally required fields. For example, if you activate the Schedule Form Activity option, you must enter a Start and End Date. If you leave these fields in blank, you cannot save the Form Settings and instead, an error message appears.</p>
+</blockquote>
+<h3>2. Confirmation Settings <span id="2-confirmation-settings"></span><a href="#2-confirmation-settings" class="hashlink">&para;</a></h3><p>This tab allows you to configure two key aspects of the submission confirmation:</p>
+<ol>
+<li><strong>Inform to the user immediately</strong>: Whether using a text message (alone or above the form) or redirect the user to another web page. In the first case, you must type the message to display and in the second, the full URL of the web.<ul>
+<li>You can insert field variables into a confirmation URL or confirmation message, in similar way as a confirmation message by email. For more details, go to the <a href="#customizing-the-message">'Customizing the message'</a> documentation.</li>
+</ul>
+</li>
+<li><strong>Send confirmation email to the user</strong>: If you select this option, each time a user submit a form will receive an email that will thank him.</li>
+</ol>
+<p><img src="images/form-manager-confirmation-settings.png" alt="Easy Forms - Confirmation Settings" /></p>
+<h4>Customizing the message <span id="customizing-the-message"></span><a href="#customizing-the-message" class="hashlink">&para;</a></h4><p>You can insert field variables into a confirmation email and they'll be replaced with whatever the user insert into that field.</p>
+<p>Every variable must be between a double punctuation keys. Eg. {{My Variable}}</p>
+<p>In the following example, we show the two ways you can insert the variables:</p>
+<ul>
+<li><em>By using the field label</em>: The variable {{Your Name}} has been inserted to the confirmation email and will be replaced by the name that the person puts in the Form.</li>
+<li><em>By using the ID field</em>: In the picture you can see the variable {{text_263547}}, the same relates to the field {{Your Name}} of the form. In other words, we can use both types of variables to get field information. If your field doesn't have a label, this is the option you should use.</li>
+</ul>
+<p>Additionally, you can use the following variables:</p>
+<ul>
+<li>{{form_id}}: Form ID.</li>
+<li>{{form_name}}: Form Name</li>
+<li>{{submission_id}}: Submission ID</li>
+<li>{{created_at}}: Date of Submission</li>
+<li>{{ip_address}}: IP Address.</li>
+<li>{{user_agent}}: Browser’s User Agent of Sender.</li>
+<li>{{country}}: Country of Sender.</li>
+<li>{{city}}: City of Sender.</li>
+<li>{{longitude}}: Geographic coordinate that specifies the east-west position of Sender.</li>
+<li>{{latitude}}: Geographic coordinate that specifies the north–south position of Sender.</li>
+</ul>
+<p>This is a great way to personalize your message. Any form field can be used in this way.</p>
+<p><img src="images/form-manager-settings-customizing-message.png" alt="Easy Forms - Customizing the message" /></p>
+<h3>3. Notification Settings <span id="3-notification-settings"></span><a href="#3-notification-settings" class="hashlink">&para;</a></h3><p>In this tab you can configure how Form Submissions will be sent to your email (All data, only a link to the data or a custom message). Additionally, you can set the email subject, email addresses and more.</p>
+<p>Two things to keep in mind:</p>
+<ol>
+<li>If the form has fields of "Email" type, you can select them as email senders (Reply To).</li>
+<li>If the form has fields of "File" type, you can attach uploaded files to emails.</li>
+</ol>
+<p><img src="images/form-manager-notification-settings.png" alt="Easy Forms - Notification Settings" /></p>
+<blockquote><p><strong>Note:</strong> You can insert field variables into a notification email. For more details, go to the <a href="#2-confirmation-settings">'Confirmation Settings'</a> documentation.</p>
+</blockquote>
+<h3>4. UI Settings <span id="4-ui-settings"></span><a href="#4-ui-settings" class="hashlink">&para;</a></h3><p>UI = User Interface.</p>
+<p>From here you can modify the form appearance: The design by using themes and the functionality using an external JavaScript file.</p>
+<ol>
+<li><strong>Select a theme</strong>: You can select the theme that best fits your form or one you have created yourself. When you select a theme from the list, the form will be automatically displayed with the design chosen theme. You can change the themes over and over again to see differences.</li>
+<li><strong>Load Javascript File</strong>: Enter the full URL of the JavaScript file that will be loaded with your form. By default, the jQuery library is available for you to make use of it when interacting with the form.</li>
+</ol>
+<p><img src="images/form-manager-ui-settings.png" alt="Easy Forms - UI Settings" /></p>
+<blockquote><p><strong>Note:</strong> To save all the changes you make on any tab, click the "Save" button.</p>
+</blockquote>
+<h2>Reset Stats <span id="reset-stats"></span><a href="#reset-stats" class="hashlink">&para;</a></h2><p>You can reset the form stats from the Form Manager, by clicking the "Actions" button and “Reset Stats“. Then it will show a popup asking you to confirm your decision to delete the stats.</p>
+<h2>Delete a form <span id="delete-a-form"></span><a href="#delete-a-form" class="hashlink">&para;</a></h2><p>You can delete a form from the Form Manager, by clicking the "Actions" button and "Delete". Then it will show a popup asking you to confirm your decision to delete the form.</p>
+<p><img src="images/form-manager-delete-form.png" alt="Easy Forms - Delete a form" /></p>
+<blockquote><p><strong>Important!</strong> When you delete a Form, all content related to it will be deleted too, including: Submissions, reports and graphs, statistics, configurations and more: This action cannot be undone.</p>
+</blockquote>
+<h2>Add conditional logic to a form <span id="add-conditional-logic-to-a-form"></span><a href="#add-conditional-logic-to-a-form" class="hashlink">&para;</a></h2><p>Easy Forms features a powerful and intuitive tool to add conditional logic to a form.</p>
+<p>The rules are based on the information that the form fields have at any given time and allow you to disable or enable and show or hide fields and other elements in the DOM. In addition, you can also do math and skip pages with this powerful tool.</p>
+<p>You can access the Rule Builder from the Form Manager:</p>
+<ol>
+<li>In the navigation bar, click "Forms"</li>
+<li>Click on the form name</li>
+<li>Click on the button "Conditional Rules" (Flow Graph icon)</li>
+</ol>
+<p><img src="images/form-manager-add-conditional-logic.png" alt="Easy Forms - Add conditional logic to a form" /></p>
+<blockquote><p><strong>Note:</strong> If you have questions about your first conditional rule, please read <a href="rule-builder.html">the Rule Builder documentation</a>.</p>
+</blockquote>
+<h2>Publish and Share a Form <span id="publish-and-share-a-form"></span><a href="#publish-and-share-a-form" class="hashlink">&para;</a></h2><p>You can access to publish and share a form using the Form Manager:</p>
+<ol>
+<li>In the navigation bar, click "Forms"</li>
+<li>Click on the form name you want to share</li>
+<li>Click on the "Publish and Share" button (the green arrow icon)</li>
+<li>This allows you to get the code to be placed on the website which will display the form (inline or in a modal pop-up). You can also copy the form permanent link and share it via email or social networks. And now, with the 1.1 version you can also share links with friendly URLs to your forms, immediately!</li>
+</ol>
+<blockquote><p><strong>Note:</strong> Keep in mind that if you are going to share your form with a friendly URL, you must also update your theme background-image (if using one).</p>
+</blockquote>
+<p>In addition, the forms can be published in two formats: With or Without design (no theme) and can be shared in different ways, depending on the configuration you assigned. For example, you can share the Form in complete page and without the application logo.</p>
+<p><img src="images/form-manager-share-form.png" alt="Easy Forms - Publish and Share a Form" /></p>
+<h2>Apply a theme to the form <span id="apply-a-theme-to-the-form"></span><a href="#apply-a-theme-to-the-form" class="hashlink">&para;</a></h2><p>To apply the theme you have created to a form, go to the Form Manager. Then, perform the following steps:</p>
+<ol>
+<li>Click the "Actions" button of the form in which you are going to apply the theme</li>
+<li>Click "Settings"</li>
+<li>Click the "UI Settings" tab</li>
+<li>Select a theme from the menu</li>
+<li>Click "Save"</li>
+</ol>
+<p><img src="images/form-manager-apply-a-theme.png" alt="Easy Forms - Apply a theme to the form" /></p>
+        <div class="toplink"><a href="#" class="h1" title="go to top"><span class="glyphicon glyphicon-arrow-up"></a></div>
+    </div>
+</div>
+
+    </div>
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="pull-left">&copy; Easy forms 2015 - 2017</p>
+        <p class="pull-right">
+            <small>Page generated on Tue, 20 Jun 2017 16:40:42 +0000</small>
+        </p>
+    </div>
+</footer>
+
+<script type="text/javascript">jQuery(document).ready(function () {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>

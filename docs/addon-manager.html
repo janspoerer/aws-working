@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_32.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_48.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_96.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_144.ico"/>
+        <link href="./assets/f4229b5b/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/c2375654/github-gist.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/fonts.min.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/bootstrap.min.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/api.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/style.css" rel="stylesheet">
+<script src="./assets/a94e8dbd/jquery.js"></script>
+<script src="./assets/f4229b5b/js/bootstrap.js"></script>
+<script src="./assets/aec6ec4/jssearch.js"></script>    <title>Add-on Manager - Add-ons - Easy Forms</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w22" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w22-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html"><span class="app-name">Easy Forms</span></a></div><div id="w22-collapse" class="collapse navbar-collapse"><ul id="w23" class="navbar-nav nav"><li><a href="./index.html">Documentation</a></li></ul>
+    <div class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+            <input id="searchbox" type="text" class="form-control" placeholder="Search">
+        </div>
+    </div>
+    </div></div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    <div class="container">
+        
+<div class="row">
+    <div class="col-md-2">
+                <div id="navigation" class="list-group"><a class="list-group-item" href="#navigation-16" data-toggle="collapse" data-parent="#navigation">First steps <b class="caret"></b></a><div id="navigation-16" class="submenu panel-collapse collapse"><a class="list-group-item" href="./intro-easy-forms.html">About Easy Forms</a>
+<a class="list-group-item" href="./system-requirements.html">Requirements</a>
+<a class="list-group-item" href="./start-installation.html">Installing Easy Forms</a>
+<a class="list-group-item" href="./start-customization.html">Customizing Easy Forms</a>
+<a class="list-group-item" href="./start-upgrading.html">Upgrading Easy Forms</a>
+<a class="list-group-item" href="./email-setup.html">Email Setup</a></div>
+<a class="list-group-item" href="#navigation-17" data-toggle="collapse" data-parent="#navigation">Forms <b class="caret"></b></a><div id="navigation-17" class="submenu panel-collapse collapse"><a class="list-group-item" href="./form-manager.html">Form Manager</a>
+<a class="list-group-item" href="./form-builder.html">Form Builder</a>
+<a class="list-group-item" href="./rule-builder.html">Rule Builder</a>
+<a class="list-group-item" href="./submission-manager.html">Submission Manager</a>
+<a class="list-group-item" href="./form-report-builder.html">Report Builder</a>
+<a class="list-group-item" href="./form-analytics.html">In-App Analytics</a>
+<a class="list-group-item" href="./form-widget.html">Form Widget</a></div>
+<a class="list-group-item" href="#navigation-18" data-toggle="collapse" data-parent="#navigation">Templates <b class="caret"></b></a><div id="navigation-18" class="submenu panel-collapse collapse"><a class="list-group-item" href="./template-manager.html">Template Manager</a></div>
+<a class="list-group-item" href="#navigation-19" data-toggle="collapse" data-parent="#navigation">Themes <b class="caret"></b></a><div id="navigation-19" class="submenu panel-collapse collapse"><a class="list-group-item" href="./theme-manager.html">Theme Manager</a></div>
+<a class="list-group-item" href="#navigation-20" data-toggle="collapse" data-parent="#navigation">Users <b class="caret"></b></a><div id="navigation-20" class="submenu panel-collapse collapse"><a class="list-group-item" href="./user-manager.html">User Manager</a>
+<a class="list-group-item" href="./membership.html">Membership</a></div>
+<a class="list-group-item active" href="#navigation-21" data-toggle="collapse" data-parent="#navigation">Add-ons <b class="caret"></b></a><div id="navigation-21" class="submenu panel-collapse collapse in"><a class="list-group-item active" href="./addon-manager.html">Add-on Manager</a>
+<a class="list-group-item" href="./addon-google-analytics.html">Google Analytics</a>
+<a class="list-group-item" href="./addon-webhooks.html">Webhooks</a>
+<a class="list-group-item" href="./addon-paypal.html">Paypal</a>
+<a class="list-group-item" href="./addon-aweber.html">AWeber</a></div></div>    </div>
+    <div class="col-md-9 guide-content" role="main">
+        <h1>Add-on Manager <span id="add-on-manager"></span><a href="#add-on-manager" class="hashlink">&para;</a></h1>
+<div class="toc"><ol><li><a href="#introduction">Introduction</a></li>
+<li><a href="#install-an-add-on">Install an add-on</a></li>
+<li><a href="#disable-enable-an-add-on">Disable / Enable an add-on</a></li>
+<li><a href="#uninstall-an-add-on">Uninstall an add-on</a></li></ol></div>
+<h2>Introduction <span id="introduction"></span><a href="#introduction" class="hashlink">&para;</a></h2><p>Add-ons are small applications integrated to Easy Forms for sending data collected by forms to third-party applications.</p>
+<p>For this guide we will use the Google Analytics add-on as an example.</p>
+<blockquote><p><strong>Note:</strong> @app refers to the application root directory.</p>
+</blockquote>
+<h2>Install an add-on <span id="install-an-add-on"></span><a href="#install-an-add-on" class="hashlink">&para;</a></h2><p>Install an add-on is a very simple process.</p>
+<ol>
+<li>Upload the Add-on folder on your server and host it in <code>@app/modules/addons/modules</code>. For this example, the folder should be in <code>@app/modules/addons/modules/google_analytics</code>.</li>
+<li>Go to the Add-ons Manager by clicking on Add-ons of the navigation bar</li>
+<li>In the Add-ons list you should see the add-on name: Google Analytics, plus its version and brief description.</li>
+<li>Select the checkbox of the add-on to install: Google Analytics.</li>
+<li>Click Bulk Actions and then Install</li>
+</ol>
+<p>The Add-ons manager will reload and Google Analytics Add-on will be installed.</p>
+<blockquote><p><strong>Note:</strong> You do not have to download the Google Analytics add-on, is included in the application.</p>
+</blockquote>
+<p><img src="images/addon-install.png" alt="Add-on Install" /></p>
+<h2>Disable / Enable an add-on <span id="disable-enable-an-add-on"></span><a href="#disable-enable-an-add-on" class="hashlink">&para;</a></h2><p>When an add-on is disabled, the add-on stops sending data to third party applications and access to their management pages is restricted.</p>
+<ol>
+<li>To disable an add-on, go to the Add-ons Manager.</li>
+<li>Select the checkbox of the add-on to disable.</li>
+<li>Click Bulk Actions and then click Disable.</li>
+</ol>
+<p>The Add-ons Manager will reload and the Add-on will be disabled.</p>
+<p>The process to enable an Add-on is virtually the same. You only need to select the action Enable, instead.</p>
+<blockquote><p><strong>Note:</strong> When an add-on is installed and running, you can access it by clicking on its name.</p>
+</blockquote>
+<h2>Uninstall an add-on <span id="uninstall-an-add-on"></span><a href="#uninstall-an-add-on" class="hashlink">&para;</a></h2><p>When you uninstall an add-on, not only stops transmitting data to third applications and restrict access to their administration pages. It also deletes all the information related and stored by the add-on during its use. This information cannot be recovered.</p>
+<ol>
+<li>To uninstall an add-on, go to the Add-ons Manager.</li>
+<li>Select the checkbox of the add-on to uninstall</li>
+<li>Click Bulk Actions and then Uninstall</li>
+</ol>
+<p>Then it will show a popup asking you to confirm your decision to uninstall the add-on.</p>
+        <div class="toplink"><a href="#" class="h1" title="go to top"><span class="glyphicon glyphicon-arrow-up"></a></div>
+    </div>
+</div>
+
+    </div>
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="pull-left">&copy; Easy forms 2015 - 2017</p>
+        <p class="pull-right">
+            <small>Page generated on Tue, 20 Jun 2017 16:40:41 +0000</small>
+        </p>
+    </div>
+</footer>
+
+<script type="text/javascript">jQuery(document).ready(function () {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>

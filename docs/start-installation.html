@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_32.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_48.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_96.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_144.ico"/>
+        <link href="./assets/f4229b5b/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/c2375654/github-gist.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/fonts.min.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/bootstrap.min.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/api.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/style.css" rel="stylesheet">
+<script src="./assets/a94e8dbd/jquery.js"></script>
+<script src="./assets/f4229b5b/js/bootstrap.js"></script>
+<script src="./assets/aec6ec4/jssearch.js"></script>    <title>Installing Easy Forms - First steps - Easy Forms</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w134" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w134-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html"><span class="app-name">Easy Forms</span></a></div><div id="w134-collapse" class="collapse navbar-collapse"><ul id="w135" class="navbar-nav nav"><li><a href="./index.html">Documentation</a></li></ul>
+    <div class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+            <input id="searchbox" type="text" class="form-control" placeholder="Search">
+        </div>
+    </div>
+    </div></div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    <div class="container">
+        
+<div class="row">
+    <div class="col-md-2">
+                <div id="navigation" class="list-group"><a class="list-group-item active" href="#navigation-128" data-toggle="collapse" data-parent="#navigation">First steps <b class="caret"></b></a><div id="navigation-128" class="submenu panel-collapse collapse in"><a class="list-group-item" href="./intro-easy-forms.html">About Easy Forms</a>
+<a class="list-group-item" href="./system-requirements.html">Requirements</a>
+<a class="list-group-item active" href="./start-installation.html">Installing Easy Forms</a>
+<a class="list-group-item" href="./start-customization.html">Customizing Easy Forms</a>
+<a class="list-group-item" href="./start-upgrading.html">Upgrading Easy Forms</a>
+<a class="list-group-item" href="./email-setup.html">Email Setup</a></div>
+<a class="list-group-item" href="#navigation-129" data-toggle="collapse" data-parent="#navigation">Forms <b class="caret"></b></a><div id="navigation-129" class="submenu panel-collapse collapse"><a class="list-group-item" href="./form-manager.html">Form Manager</a>
+<a class="list-group-item" href="./form-builder.html">Form Builder</a>
+<a class="list-group-item" href="./rule-builder.html">Rule Builder</a>
+<a class="list-group-item" href="./submission-manager.html">Submission Manager</a>
+<a class="list-group-item" href="./form-report-builder.html">Report Builder</a>
+<a class="list-group-item" href="./form-analytics.html">In-App Analytics</a>
+<a class="list-group-item" href="./form-widget.html">Form Widget</a></div>
+<a class="list-group-item" href="#navigation-130" data-toggle="collapse" data-parent="#navigation">Templates <b class="caret"></b></a><div id="navigation-130" class="submenu panel-collapse collapse"><a class="list-group-item" href="./template-manager.html">Template Manager</a></div>
+<a class="list-group-item" href="#navigation-131" data-toggle="collapse" data-parent="#navigation">Themes <b class="caret"></b></a><div id="navigation-131" class="submenu panel-collapse collapse"><a class="list-group-item" href="./theme-manager.html">Theme Manager</a></div>
+<a class="list-group-item" href="#navigation-132" data-toggle="collapse" data-parent="#navigation">Users <b class="caret"></b></a><div id="navigation-132" class="submenu panel-collapse collapse"><a class="list-group-item" href="./user-manager.html">User Manager</a>
+<a class="list-group-item" href="./membership.html">Membership</a></div>
+<a class="list-group-item" href="#navigation-133" data-toggle="collapse" data-parent="#navigation">Add-ons <b class="caret"></b></a><div id="navigation-133" class="submenu panel-collapse collapse"><a class="list-group-item" href="./addon-manager.html">Add-on Manager</a>
+<a class="list-group-item" href="./addon-google-analytics.html">Google Analytics</a>
+<a class="list-group-item" href="./addon-webhooks.html">Webhooks</a>
+<a class="list-group-item" href="./addon-paypal.html">Paypal</a>
+<a class="list-group-item" href="./addon-aweber.html">AWeber</a></div></div>    </div>
+    <div class="col-md-9 guide-content" role="main">
+        <h1>Installing Easy Forms <span id="installing-easy-forms"></span><a href="#installing-easy-forms" class="hashlink">&para;</a></h1>
+<div class="toc"><ol><li><a href="#check-the-server-configuration">Check the Server Configuration</a></li>
+<li><a href="#add-free-geolite2-db-files-to-your-server">Add Free GeoLite2 DB files to your server</a></li>
+<li><a href="#set-up-directory-and-file-permissions">Set up directory and file permissions</a></li>
+<li><a href="#prepare-the-mysql-database">Prepare the MySQL database</a></li>
+<li><a href="#run-the-install-script">Run the install script</a></li>
+<li><a href="#verify-that-the-site-is-working">Verify that the site is working</a></li>
+<li><a href="#revoke-database-config-file-permissions-and-delete-the-install-file">Revoke database config file permissions and delete the install file</a></li>
+<li><a href="#add-cron-job-to-server">Add Cron Job to Server</a></li>
+<li><a href="#configure-access-to-your-smtp-server">Configure access to your SMTP server</a></li>
+<li><a href="#configure-the-site-google-recaptcha-and-google-maps">Configure the Site (Google reCAPTCHA and Google Maps)</a></li></ol></div>
+<p>Easy Forms installation is a simple process that should not take more than a few minutes. The following installation guide will help you install Easy Forms on your server.</p>
+<blockquote><p><strong>Note:</strong> This guide assumes that you have already uploaded the 'app' folder (Easy Forms files) to your server.</p>
+</blockquote>
+<blockquote><p><strong>Recommended:</strong> Compress the 'app' folder and upload 'app.zip' file. Then, uncompress the file in your server. With this you will avoid problems (corrupted files) and reduce the upload time.</p>
+</blockquote>
+<blockquote><p><strong>Note:</strong> @app refers to the application installation path.</p>
+</blockquote>
+<h2>Check the Server Configuration <span id="check-the-server-configuration"></span><a href="#check-the-server-configuration" class="hashlink">&para;</a></h2><p>Before proceeding with your installation, you should review the application's minimum requirements. Most web hosts meet these requirements.</p>
+<h2>Add Free GeoLite2 DB files to your server <span id="add-free-geolite2-db-files-to-your-server"></span><a href="#add-free-geolite2-db-files-to-your-server" class="hashlink">&para;</a></h2><p>GeoLite2 databases are free IP geolocation databases and are needed to collect your users' geographical location. Therefore, you must:</p>
+<ol>
+<li><a href="https://dev.maxmind.com/geoip/geoip2/geolite2/">Download GeoLite2 City and GeoLite2 Country databases</a>.</li>
+<li>Unzip the files and place them in the directory <code>@app/components/analytics/enricher/GeoIP</code>.</li>
+<li>Verify that the files match these paths:<ul>
+<li>@app/components/analytics/enricher/GeoIP/GeoLite2-City.mmdb</li>
+<li>@app/components/analytics/enricher/GeoIP/GeoLite2-Country.mmdb</li>
+</ul>
+</li>
+</ol>
+<h2>Set up directory and file permissions <span id="set-up-directory-and-file-permissions"></span><a href="#set-up-directory-and-file-permissions" class="hashlink">&para;</a></h2><p>For the application's correct operation you must ensure that some files or directories have the proper permissions:</p>
+<ul>
+<li>Runtime directory: <code>chmod -R 0777 @app/runtime</code></li>
+<li>Assets directory: <code>chmod -R 0777 @app/assets</code></li>
+<li>Static Files directory: <code>chmod -R 0777 @app/static_files</code></li>
+<li>Database configuration file (The install script needs write permission): <code>chmod 0777 @app/config/db.php</code></li>
+</ul>
+<p>If the files' owner is the web server. Then, set the file permissions to 0755. For example, if you use an FTP client such as Filezilla:</p>
+<pre><code class="hljs sql">1. Open your FTP client
+2. Right-click on 'runtime' directory and click on 'File permissions...'
+3. Write 755
+4. <span class="hljs-operator"><span class="hljs-keyword">Check</span> <span class="hljs-string">'Recurse into subdirectories'</span> <span class="hljs-keyword">and</span> <span class="hljs-string">'Apply to all files and directories'</span>
+<span class="hljs-number">5.</span> Press ok
+<span class="hljs-number">6.</span> <span class="hljs-keyword">Repeat</span> the same steps <span class="hljs-keyword">with</span> the <span class="hljs-string">'assets'</span> <span class="hljs-keyword">and</span> <span class="hljs-string">'static_files'</span> directories.
+<span class="hljs-number">7.</span> <span class="hljs-keyword">Right</span>-click <span class="hljs-keyword">on</span> the <span class="hljs-string">'config/db.php'</span> <span class="hljs-keyword">file</span> <span class="hljs-keyword">and</span> click <span class="hljs-keyword">on</span> <span class="hljs-string">'File permissions...'</span>
+<span class="hljs-number">8.</span> Write <span class="hljs-number">755</span> <span class="hljs-keyword">and</span> Press ok
+</span></code></pre>
+<blockquote><p><strong>Note:</strong> If you have trouble setting permissions, get in touch with our support team and we will be more than happy to help you.</p>
+</blockquote>
+<h2>Prepare the MySQL database <span id="prepare-the-mysql-database"></span><a href="#prepare-the-mysql-database" class="hashlink">&para;</a></h2><p>Easy Forms needs a MySQL database to store its data such as forms, submissions and stats. You can either use your existing MySQL database or create a dedicated MySQL database for Easy Forms on your server.</p>
+<p>Take note of the username, password, database name, and hostname as you create the database. You will enter this information during the install.</p>
+<blockquote><p><strong>Important!</strong> If you are installing on 'localhost' (on Windows) by Wamp or Xampp, you must import the file 'easy_forms.sql' to your database (The .sql file comes in the 'local' folder attached to this documentation).</p>
+</blockquote>
+<h2>Run the install script <span id="run-the-install-script"></span><a href="#run-the-install-script" class="hashlink">&para;</a></h2><p>To run the install script, point your browser to 'install.php' file in the base URL of your application (e.g., <a href="http://www.example.com/install.php">http://www.example.com/install.php</a>).</p>
+<p>You will be guided through several screens to choose your language, set up the database and create the administrator account.</p>
+<p><img src="images/setup-step-3.png" alt="Easy Forms - Install Script" /></p>
+<h2>Verify that the site is working <span id="verify-that-the-site-is-working"></span><a href="#verify-that-the-site-is-working" class="hashlink">&para;</a></h2><p>When the install script finishes, you can go to the application home page and it automatically will show the login form. If the form is not displaying properly and links on the page result in "Page Not Found" errors, you may be experiencing problems with friendly URLs. You must ensure you have the Apache module 'mod_rewrite' enabled.</p>
+<blockquote><p><strong>Important!</strong> If your server doesn't have Apache mod_rewrite enabled. You need to disable pretty urls:</p>
+</blockquote>
+<ol>
+<li>Open the '@app/config/web.php' file</li>
+<li>Change the line:</li>
+</ol>
+<p><code>'enablePrettyUrl' =&gt; true,</code></p>
+<p>By</p>
+<p><code>'enablePrettyUrl' =&gt; false,</code></p>
+<p><img src="images/login-page.png" alt="Easy Forms - Login Page" /></p>
+<h2>Revoke database config file permissions and delete the install file <span id="revoke-database-config-file-permissions-and-delete-the-install-file"></span><a href="#revoke-database-config-file-permissions-and-delete-the-install-file" class="hashlink">&para;</a></h2><p>For security, even when the application is functioning properly, you must perform the following steps:</p>
+<h3>7.1 Revoke database config file permissions <span id="71-revoke-database-config-file-permissions"></span><a href="#71-revoke-database-config-file-permissions" class="hashlink">&para;</a></h3><p>Through the File Transfer Program (FTP) or command line.</p>
+<p><code>chmod 0644 @app/config/db.php</code></p>
+<p>If the file's owner is the web server. Then, set the file permissions to 0444. For example, if you use an FTP client such as Filezilla:</p>
+<pre><code class="hljs php"><span class="hljs-number">1.</span> Open your FTP client
+<span class="hljs-number">2.</span> Right-click on the <span class="hljs-string">'config/db.php'</span> file <span class="hljs-keyword">and</span> click on <span class="hljs-string">'File permissions...'</span>
+<span class="hljs-number">3.</span> Write <span class="hljs-number">444</span> <span class="hljs-keyword">and</span> Press ok
+</code></pre>
+<h3>7.2 Delete the install file <span id="72-delete-the-install-file"></span><a href="#72-delete-the-install-file" class="hashlink">&para;</a></h3><p>Through the File Transfer Program (FTP) or command line.</p>
+<p><code>rm @app/install.php</code></p>
+<p><img src="images/dashboard-status-message.png" alt="Easy Forms - Dashboard Status Message" /></p>
+<h2>Add Cron Job to Server <span id="add-cron-job-to-server"></span><a href="#add-cron-job-to-server" class="hashlink">&para;</a></h2><p>After the installation process is finished, the script will show exactly the command (red line) you should add to your server cron.</p>
+<p><img src="images/setup-step-8.png" alt="Easy Forms - Add Cron Job" /></p>
+<p>To configure the cron job with cPanel, perform the following steps:</p>
+<pre><code class="hljs sql">1. Go to your cPanel
+2. Click on Cron Jobs
+3. Go to Add New Cron Job section
+4. <span class="hljs-operator"><span class="hljs-keyword">Select</span>: Common <span class="hljs-keyword">Settings</span>: Once Per <span class="hljs-keyword">Minute</span> (* * * * *)
+<span class="hljs-number">5.</span> Write <span class="hljs-keyword">in</span> Command: /<span class="hljs-keyword">path</span>/<span class="hljs-keyword">to</span>/php /<span class="hljs-keyword">path</span>/<span class="hljs-keyword">to</span>/app/yii cron
+<span class="hljs-number">6.</span> Press <span class="hljs-keyword">Add</span> <span class="hljs-keyword">New</span> Cron Job button
+</span></code></pre>
+<p>Don't forget to change the command in the step 5 by the red line after your installation. And that's it!</p>
+<blockquote><p><strong>Important!</strong> For performance reasons many actions or tasks are executed by the cron. E.g. sending notifications or statistics update.</p>
+</blockquote>
+<blockquote><p><strong>Note:</strong> If you have problems running the cron jobs, get in touch with our support team and we will be more than happy to help you.</p>
+</blockquote>
+<h2>Configure access to your SMTP server <span id="configure-access-to-your-smtp-server"></span><a href="#configure-access-to-your-smtp-server" class="hashlink">&para;</a></h2><p>Send emails using the PHP native function - mail() - suffer from many drawbacks in terms of Deliverability. Many anti spam filters end up blocking these emails. To avoid this problem, you must configure an SMTP account in the application to send all mail through it.</p>
+<p>The SMTP server authentication data can be the one that comes with your hosting plan or by using an external service, such as Hotmail, Yahoo, Gmail or other.</p>
+<p>As an example, consider how to configure the SMTP server with a Google Apps account or Gmail.</p>
+<p>To configure your SMTP server:</p>
+<ol>
+<li>In the navigation bar, click on your username and then click Settings</li>
+<li>In the lower left block, click Mail Server</li>
+<li>Please fill the fields with the following data:<pre><code class="hljs markdown"><span class="hljs-bullet">- </span>Host: smtp.gmail.com
+<span class="hljs-bullet">- </span>Port: 587
+<span class="hljs-bullet">- </span>Encryption: TLS
+<span class="hljs-bullet">- </span>Username: Your username on Google Apps or Gmail
+<span class="hljs-bullet">- </span>Password: Your password on Google Apps or Gmail
+</code></pre>
+</li>
+<li>Click Update</li>
+</ol>
+<p><img src="images/smtp-server-access.png" alt="Easy Forms - SMTP Server" /></p>
+<blockquote><p><strong>Note:</strong> You can read more information in our <a href="email-setup.html">Email Setup documentation</a>.</p>
+</blockquote>
+<h2>Configure the Site (Google reCAPTCHA and Google Maps) <span id="configure-the-site-google-recaptcha-and-google-maps"></span><a href="#configure-the-site-google-recaptcha-and-google-maps" class="hashlink">&para;</a></h2><p>By configuring the Site you may:</p>
+<ul>
+<li>Renaming the application and Logo.</li>
+<li>Change the application description.</li>
+<li>Set the default mail application according with your domain.</li>
+<li>Set reCAPTCHA: For reCaptcha keys, go to <a href="https://www.google.com/recaptcha">Google reCAPTCHA website</a><ul>
+<li>ReCaptcha Secret Key</li>
+<li>ReCaptcha Site Key</li>
+</ul>
+</li>
+</ul>
+<p><img src="images/configure-site.png" alt="Easy Forms - Google reCaptcha and Google Maps" /></p>
+<blockquote><p><strong>Important!</strong> To use reCAPTCHA component in the form builder, you must first add reCAPTCHA keys in the site configuration. Otherwise, reCAPTCHA will not operate. If you created the form before adding the keys, you must update the form.</p>
+</blockquote>
+<h3>10.1 Add a Google Maps Api Key to the App <span id="101-add-a-google-maps-api-key-to-the-app"></span><a href="#101-add-a-google-maps-api-key-to-the-app" class="hashlink">&para;</a></h3><ol>
+<li>[]Get a key for Google Maps JavaScript API](<a href="https://developers.google.com/maps/documentation/javascript/get-api-key">https://developers.google.com/maps/documentation/javascript/get-api-key</a>)</li>
+<li>Open the @app/config/params.php file.</li>
+<li>Add the Google Maps JavasCript Api key to 'Google.Maps.apiKey'.</li>
+<li>Save the file.</li>
+</ol>
+<blockquote><p><strong>Note:</strong> The Google Maps Api Key is required by the <a href="submission-manager.html">Submission Manager</a> to show you the sender information.</p>
+</blockquote>
+        <div class="toplink"><a href="#" class="h1" title="go to top"><span class="glyphicon glyphicon-arrow-up"></a></div>
+    </div>
+</div>
+
+    </div>
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="pull-left">&copy; Easy forms 2015 - 2017</p>
+        <p class="pull-right">
+            <small>Page generated on Tue, 20 Jun 2017 16:40:42 +0000</small>
+        </p>
+    </div>
+</footer>
+
+<script type="text/javascript">jQuery(document).ready(function () {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>

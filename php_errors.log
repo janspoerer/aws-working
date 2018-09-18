@@ -1,0 +1,1683 @@
+[14-Oct-2017 20:28:22 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/ubuntu/workspace/crm/application/controllers/Leads.php on line 120
+[14-Oct-2017 20:28:22 UTC] PHP Stack trace:
+[14-Oct-2017 20:28:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 20:28:22 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 20:51:00 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/models/Leads_model.php on line 129
+[14-Oct-2017 20:51:00 UTC] PHP Stack trace:
+[14-Oct-2017 20:51:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 20:51:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 20:51:00 UTC] PHP   3. Leads->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[14-Oct-2017 20:51:00 UTC] PHP   4. CI_Loader->model() /home/ubuntu/workspace/crm/application/controllers/Leads.php:10
+[14-Oct-2017 20:51:37 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/ubuntu/workspace/crm/application/models/Leads_model.php on line 133
+[14-Oct-2017 20:51:37 UTC] PHP Stack trace:
+[14-Oct-2017 20:51:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 20:51:37 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 20:51:37 UTC] PHP   3. Leads->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[14-Oct-2017 20:51:37 UTC] PHP   4. CI_Loader->model() /home/ubuntu/workspace/crm/application/controllers/Leads.php:10
+[14-Oct-2017 20:55:08 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/models/Leads_model.php on line 133
+[14-Oct-2017 20:55:08 UTC] PHP Stack trace:
+[14-Oct-2017 20:55:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 20:55:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 20:55:08 UTC] PHP   3. Leads->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[14-Oct-2017 20:55:08 UTC] PHP   4. CI_Loader->model() /home/ubuntu/workspace/crm/application/controllers/Leads.php:10
+[14-Oct-2017 20:57:04 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::result() in /home/ubuntu/workspace/crm/application/models/Leads_model.php on line 131
+[14-Oct-2017 20:57:04 UTC] PHP Stack trace:
+[14-Oct-2017 20:57:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 20:57:04 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 20:57:04 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 20:57:04 UTC] PHP   4. Leads->lead_page() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 20:57:04 UTC] PHP   5. Leads_Model->get_project_task_name() /home/ubuntu/workspace/crm/application/controllers/Leads.php:126
+[14-Oct-2017 20:58:32 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::result() in /home/ubuntu/workspace/crm/application/models/Leads_model.php on line 131
+[14-Oct-2017 20:58:32 UTC] PHP Stack trace:
+[14-Oct-2017 20:58:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 20:58:32 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 20:58:32 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 20:58:32 UTC] PHP   4. Leads->lead_page() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 20:58:32 UTC] PHP   5. Leads_Model->get_project_task_name() /home/ubuntu/workspace/crm/application/controllers/Leads.php:126
+[14-Oct-2017 21:01:17 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::result() in /home/ubuntu/workspace/crm/application/models/Leads_model.php on line 129
+[14-Oct-2017 21:01:17 UTC] PHP Stack trace:
+[14-Oct-2017 21:01:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 21:01:17 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 21:01:17 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 21:01:17 UTC] PHP   4. Leads->lead_page() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 21:01:17 UTC] PHP   5. Leads_Model->get_project_task_name() /home/ubuntu/workspace/crm/application/controllers/Leads.php:126
+[14-Oct-2017 21:02:40 UTC] PHP Parse error:  syntax error, unexpected 'COUNT' (T_STRING) in /home/ubuntu/workspace/crm/application/models/Leads_model.php on line 142
+[14-Oct-2017 21:02:40 UTC] PHP Stack trace:
+[14-Oct-2017 21:02:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 21:02:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 21:02:40 UTC] PHP   3. Leads->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[14-Oct-2017 21:02:40 UTC] PHP   4. CI_Loader->model() /home/ubuntu/workspace/crm/application/controllers/Leads.php:10
+[14-Oct-2017 21:03:21 UTC] PHP Fatal error:  Cannot use object of type CI_DB_mysqli_result as array in /home/ubuntu/workspace/crm/application/models/Leads_model.php on line 129
+[14-Oct-2017 21:03:21 UTC] PHP Stack trace:
+[14-Oct-2017 21:03:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 21:03:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 21:03:21 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 21:03:21 UTC] PHP   4. Leads->lead_page() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 21:03:21 UTC] PHP   5. Leads_Model->get_project_task_name() /home/ubuntu/workspace/crm/application/controllers/Leads.php:126
+[14-Oct-2017 21:08:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/crm/application/models/Leads_model.php on line 138
+[14-Oct-2017 21:08:30 UTC] PHP Stack trace:
+[14-Oct-2017 21:08:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 21:08:30 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 21:08:30 UTC] PHP   3. Leads->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[14-Oct-2017 21:08:30 UTC] PHP   4. CI_Loader->model() /home/ubuntu/workspace/crm/application/controllers/Leads.php:10
+[14-Oct-2017 21:08:53 UTC] PHP Fatal error:  Call to undefined method Leads_Model::get_project_task_name() in /home/ubuntu/workspace/crm/application/controllers/Leads.php on line 126
+[14-Oct-2017 21:08:53 UTC] PHP Stack trace:
+[14-Oct-2017 21:08:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 21:08:53 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 21:08:53 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 21:08:53 UTC] PHP   4. Leads->lead_page() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 22:39:16 UTC] PHP Fatal error:  Call to undefined method Leads::leads_modelget_project_info_for_hash() in /home/ubuntu/workspace/crm/application/controllers/Leads.php on line 1130
+[14-Oct-2017 22:39:16 UTC] PHP Stack trace:
+[14-Oct-2017 22:39:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 22:39:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 22:39:16 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 22:39:16 UTC] PHP   4. Leads->view_form_full() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 22:39:17 UTC] PHP Fatal error:  Call to undefined method Leads::leads_modelget_project_info_for_hash() in /home/ubuntu/workspace/crm/application/controllers/Leads.php on line 1130
+[14-Oct-2017 22:39:17 UTC] PHP Stack trace:
+[14-Oct-2017 22:39:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 22:39:17 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 22:39:17 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 22:39:17 UTC] PHP   4. Leads->view_form_full() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 22:39:19 UTC] PHP Fatal error:  Call to undefined method Leads::leads_modelget_project_info_for_hash() in /home/ubuntu/workspace/crm/application/controllers/Leads.php on line 1130
+[14-Oct-2017 22:39:19 UTC] PHP Stack trace:
+[14-Oct-2017 22:39:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 22:39:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 22:39:19 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 22:39:19 UTC] PHP   4. Leads->view_form_full() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 22:39:25 UTC] PHP Fatal error:  Call to undefined method Leads::leads_modelget_project_info_for_hash() in /home/ubuntu/workspace/crm/application/controllers/Leads.php on line 1130
+[14-Oct-2017 22:39:25 UTC] PHP Stack trace:
+[14-Oct-2017 22:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 22:39:25 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 22:39:25 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 22:39:25 UTC] PHP   4. Leads->view_form_full() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 23:18:40 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/crm/application/views/leads/view_form_full.php on line 90
+[14-Oct-2017 23:18:40 UTC] PHP Stack trace:
+[14-Oct-2017 23:18:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Oct-2017 23:18:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Oct-2017 23:18:40 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 23:18:40 UTC] PHP   4. Leads->view_form_full() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[14-Oct-2017 23:18:40 UTC] PHP   5. Template->loadAjax() /home/ubuntu/workspace/crm/application/controllers/Leads.php:1138
+[14-Oct-2017 23:18:40 UTC] PHP   6. CI_Loader->view() /home/ubuntu/workspace/crm/application/libraries/Template.php:78
+[14-Oct-2017 23:18:40 UTC] PHP   7. CI_Loader->_ci_load() /home/ubuntu/workspace/crm/system/core/Loader.php:489
+[15-Oct-2017 09:47:58 UTC] PHP Fatal error:  Call to a member function get_active_forms() on a non-object in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 418
+[15-Oct-2017 09:47:58 UTC] PHP Stack trace:
+[15-Oct-2017 09:47:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Oct-2017 09:47:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Oct-2017 09:47:58 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Oct-2017 09:47:58 UTC] PHP   4. Tasks->add() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Oct-2017 09:48:45 UTC] PHP Fatal error:  Call to undefined method Projects_Model::get_active_forms() in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 418
+[15-Oct-2017 09:48:45 UTC] PHP Stack trace:
+[15-Oct-2017 09:48:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Oct-2017 09:48:45 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Oct-2017 09:48:45 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Oct-2017 09:48:45 UTC] PHP   4. Tasks->add() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Oct-2017 09:59:14 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/ubuntu/workspace/crm/application/views/tasks/edit_task.php on line 42
+[15-Oct-2017 09:59:14 UTC] PHP Stack trace:
+[15-Oct-2017 09:59:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Oct-2017 09:59:14 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Oct-2017 09:59:14 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Oct-2017 09:59:14 UTC] PHP   4. Tasks->edit_task() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Oct-2017 09:59:14 UTC] PHP   5. Template->loadContent() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:702
+[15-Oct-2017 09:59:14 UTC] PHP   6. CI_Loader->view() /home/ubuntu/workspace/crm/application/libraries/Template.php:33
+[15-Oct-2017 09:59:14 UTC] PHP   7. CI_Loader->_ci_load() /home/ubuntu/workspace/crm/system/core/Loader.php:489
+[15-Oct-2017 09:59:14 UTC] PHP   8. include() /home/ubuntu/workspace/crm/system/core/Loader.php:962
+[15-Oct-2017 09:59:16 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/ubuntu/workspace/crm/application/views/tasks/edit_task.php on line 42
+[15-Oct-2017 09:59:16 UTC] PHP Stack trace:
+[15-Oct-2017 09:59:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Oct-2017 09:59:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Oct-2017 09:59:16 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Oct-2017 09:59:16 UTC] PHP   4. Tasks->edit_task() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Oct-2017 09:59:16 UTC] PHP   5. Template->loadContent() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:702
+[15-Oct-2017 09:59:16 UTC] PHP   6. CI_Loader->view() /home/ubuntu/workspace/crm/application/libraries/Template.php:33
+[15-Oct-2017 09:59:16 UTC] PHP   7. CI_Loader->_ci_load() /home/ubuntu/workspace/crm/system/core/Loader.php:489
+[15-Oct-2017 09:59:16 UTC] PHP   8. include() /home/ubuntu/workspace/crm/system/core/Loader.php:962
+[15-Oct-2017 09:59:24 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/ubuntu/workspace/crm/application/views/tasks/edit_task.php on line 42
+[15-Oct-2017 09:59:24 UTC] PHP Stack trace:
+[15-Oct-2017 09:59:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Oct-2017 09:59:24 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Oct-2017 09:59:24 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Oct-2017 09:59:24 UTC] PHP   4. Tasks->edit_task() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Oct-2017 09:59:24 UTC] PHP   5. Template->loadContent() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:702
+[15-Oct-2017 09:59:24 UTC] PHP   6. CI_Loader->view() /home/ubuntu/workspace/crm/application/libraries/Template.php:33
+[15-Oct-2017 09:59:24 UTC] PHP   7. CI_Loader->_ci_load() /home/ubuntu/workspace/crm/system/core/Loader.php:489
+[15-Oct-2017 09:59:24 UTC] PHP   8. include() /home/ubuntu/workspace/crm/system/core/Loader.php:962
+[15-Oct-2017 11:13:45 UTC] PHP Parse error:  syntax error, unexpected 'label' (T_STRING) in /home/ubuntu/workspace/crm/application/controllers/Projects.php on line 198
+[15-Oct-2017 11:13:45 UTC] PHP Stack trace:
+[15-Oct-2017 11:13:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Oct-2017 11:13:45 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Oct-2017 11:17:49 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Projects.php on line 196
+[15-Oct-2017 11:17:49 UTC] PHP Stack trace:
+[15-Oct-2017 11:17:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Oct-2017 11:17:49 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 16:13:22 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/models/Task_model.php on line 353
+[05-Nov-2017 16:13:22 UTC] PHP Stack trace:
+[05-Nov-2017 16:13:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 16:13:22 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 16:13:22 UTC] PHP   3. Tasks->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[05-Nov-2017 16:13:22 UTC] PHP   4. CI_Loader->model() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:10
+[05-Nov-2017 16:33:04 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/models/Task_model.php on line 353
+[05-Nov-2017 16:33:04 UTC] PHP Stack trace:
+[05-Nov-2017 16:33:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 16:33:04 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 16:33:04 UTC] PHP   3. Tasks->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[05-Nov-2017 16:33:04 UTC] PHP   4. CI_Loader->model() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:10
+[05-Nov-2017 16:33:41 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_result::join() in /home/ubuntu/workspace/crm/application/models/Task_model.php on line 353
+[05-Nov-2017 16:33:41 UTC] PHP Stack trace:
+[05-Nov-2017 16:33:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 16:33:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 16:33:41 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 16:33:41 UTC] PHP   4. Tasks->view() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 16:33:41 UTC] PHP   5. Task_Model->get_task_objectives() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:873
+[05-Nov-2017 16:45:05 UTC] PHP Fatal error:  Cannot use object of type CI_DB_mysqli_result as array in /home/ubuntu/workspace/crm/application/models/Task_model.php on line 356
+[05-Nov-2017 16:45:05 UTC] PHP Stack trace:
+[05-Nov-2017 16:45:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 16:45:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 16:45:05 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 16:45:05 UTC] PHP   4. Tasks->view() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 16:45:05 UTC] PHP   5. Task_Model->get_task_objectives() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:873
+[05-Nov-2017 16:45:31 UTC] PHP Fatal error:  Cannot use object of type CI_DB_mysqli_result as array in /home/ubuntu/workspace/crm/application/models/Task_model.php on line 356
+[05-Nov-2017 16:45:31 UTC] PHP Stack trace:
+[05-Nov-2017 16:45:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 16:45:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 16:45:31 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 16:45:31 UTC] PHP   4. Tasks->view() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 16:45:31 UTC] PHP   5. Task_Model->get_task_objectives() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:873
+[05-Nov-2017 17:03:58 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/crm/application/models/Task_model.php on line 571
+[05-Nov-2017 17:03:58 UTC] PHP Stack trace:
+[05-Nov-2017 17:03:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 17:03:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 17:03:58 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:03:58 UTC] PHP   4. Projects->view() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:03:58 UTC] PHP   5. CI_Loader->model() /home/ubuntu/workspace/crm/application/controllers/Projects.php:267
+[05-Nov-2017 17:04:13 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/crm/application/models/Task_model.php on line 587
+[05-Nov-2017 17:04:13 UTC] PHP Stack trace:
+[05-Nov-2017 17:04:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 17:04:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 17:04:13 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:04:13 UTC] PHP   4. Projects->view() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:04:13 UTC] PHP   5. CI_Loader->model() /home/ubuntu/workspace/crm/application/controllers/Projects.php:267
+[05-Nov-2017 17:05:34 UTC] PHP Fatal error:  Call to undefined method stdClass::result() in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 879
+[05-Nov-2017 17:05:34 UTC] PHP Stack trace:
+[05-Nov-2017 17:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 17:05:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 17:05:34 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:05:34 UTC] PHP   4. Tasks->view() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:05:35 UTC] PHP Fatal error:  Call to undefined method stdClass::result() in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 879
+[05-Nov-2017 17:05:35 UTC] PHP Stack trace:
+[05-Nov-2017 17:05:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 17:05:35 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 17:05:35 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:05:35 UTC] PHP   4. Tasks->view() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:05:46 UTC] PHP Fatal error:  Call to undefined method stdClass::get_result() in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 879
+[05-Nov-2017 17:05:46 UTC] PHP Stack trace:
+[05-Nov-2017 17:05:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 17:05:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 17:05:46 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:05:46 UTC] PHP   4. Tasks->view() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:20:56 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/views/tasks/view_task.php on line 78
+[05-Nov-2017 17:20:56 UTC] PHP Stack trace:
+[05-Nov-2017 17:20:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 17:20:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 17:20:56 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:20:56 UTC] PHP   4. Tasks->view() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:20:56 UTC] PHP   5. Template->loadContent() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:948
+[05-Nov-2017 17:20:56 UTC] PHP   6. CI_Loader->view() /home/ubuntu/workspace/crm/application/libraries/Template.php:33
+[05-Nov-2017 17:20:56 UTC] PHP   7. CI_Loader->_ci_load() /home/ubuntu/workspace/crm/system/core/Loader.php:489
+[05-Nov-2017 17:21:16 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/views/tasks/view_task.php on line 78
+[05-Nov-2017 17:21:16 UTC] PHP Stack trace:
+[05-Nov-2017 17:21:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 17:21:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 17:21:16 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:21:16 UTC] PHP   4. Tasks->view() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:21:16 UTC] PHP   5. Template->loadContent() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:948
+[05-Nov-2017 17:21:16 UTC] PHP   6. CI_Loader->view() /home/ubuntu/workspace/crm/application/libraries/Template.php:33
+[05-Nov-2017 17:21:16 UTC] PHP   7. CI_Loader->_ci_load() /home/ubuntu/workspace/crm/system/core/Loader.php:489
+[05-Nov-2017 17:45:56 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 884
+[05-Nov-2017 17:45:56 UTC] PHP Stack trace:
+[05-Nov-2017 17:45:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 17:45:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 17:45:59 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 884
+[05-Nov-2017 17:45:59 UTC] PHP Stack trace:
+[05-Nov-2017 17:45:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 17:45:59 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 17:53:10 UTC] PHP Parse error:  syntax error, unexpected 'lead_form_fields' (T_STRING) in /home/ubuntu/workspace/crm/application/models/Task_model.php on line 577
+[05-Nov-2017 17:53:10 UTC] PHP Stack trace:
+[05-Nov-2017 17:53:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 17:53:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 17:53:10 UTC] PHP   3. Tasks->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[05-Nov-2017 17:53:10 UTC] PHP   4. CI_Loader->model() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:10
+[05-Nov-2017 17:56:06 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::join_left() in /home/ubuntu/workspace/crm/application/models/Task_model.php on line 575
+[05-Nov-2017 17:56:06 UTC] PHP Stack trace:
+[05-Nov-2017 17:56:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 17:56:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 17:56:06 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:56:06 UTC] PHP   4. Tasks->view() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 17:56:06 UTC] PHP   5. Task_Model->get_task_questions() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:881
+[05-Nov-2017 18:31:08 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/crm/application/models/Task_model.php on line 353
+[05-Nov-2017 18:31:08 UTC] PHP Stack trace:
+[05-Nov-2017 18:31:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 18:31:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 18:31:08 UTC] PHP   3. Tasks->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[05-Nov-2017 18:31:08 UTC] PHP   4. CI_Loader->model() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:10
+[05-Nov-2017 18:31:09 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/crm/application/models/Task_model.php on line 353
+[05-Nov-2017 18:31:09 UTC] PHP Stack trace:
+[05-Nov-2017 18:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 18:31:09 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 18:31:09 UTC] PHP   3. Tasks->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[05-Nov-2017 18:31:09 UTC] PHP   4. CI_Loader->model() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:10
+[05-Nov-2017 18:31:38 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/crm/application/models/Task_model.php on line 353
+[05-Nov-2017 18:31:38 UTC] PHP Stack trace:
+[05-Nov-2017 18:31:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 18:31:38 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 18:31:38 UTC] PHP   3. Tasks->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[05-Nov-2017 18:31:38 UTC] PHP   4. CI_Loader->model() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:10
+[05-Nov-2017 18:32:07 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/crm/application/models/Task_model.php on line 353
+[05-Nov-2017 18:32:07 UTC] PHP Stack trace:
+[05-Nov-2017 18:32:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 18:32:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 18:32:07 UTC] PHP   3. Tasks->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[05-Nov-2017 18:32:07 UTC] PHP   4. CI_Loader->model() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:10
+[05-Nov-2017 18:33:05 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 885
+[05-Nov-2017 18:33:05 UTC] PHP Stack trace:
+[05-Nov-2017 18:33:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 18:33:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 18:33:05 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 18:33:05 UTC] PHP   4. Tasks->view() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 18:33:35 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 884
+[05-Nov-2017 18:33:35 UTC] PHP Stack trace:
+[05-Nov-2017 18:33:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 18:33:35 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 18:33:35 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 18:33:35 UTC] PHP   4. Tasks->view() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[05-Nov-2017 19:19:50 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 1468
+[05-Nov-2017 19:19:50 UTC] PHP Stack trace:
+[05-Nov-2017 19:19:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 19:19:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 19:19:52 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 1468
+[05-Nov-2017 19:19:52 UTC] PHP Stack trace:
+[05-Nov-2017 19:19:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 19:19:52 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 19:20:48 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 1468
+[05-Nov-2017 19:20:48 UTC] PHP Stack trace:
+[05-Nov-2017 19:20:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 19:20:48 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 19:26:18 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 1468
+[05-Nov-2017 19:26:18 UTC] PHP Stack trace:
+[05-Nov-2017 19:26:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 19:26:18 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[05-Nov-2017 19:26:19 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 1468
+[05-Nov-2017 19:26:19 UTC] PHP Stack trace:
+[05-Nov-2017 19:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[05-Nov-2017 19:26:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[08-Nov-2017 22:11:45 UTC] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /home/ubuntu/workspace/crm/application/language/english/content_lang.php on line 1132
+[08-Nov-2017 22:11:45 UTC] PHP Stack trace:
+[08-Nov-2017 22:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[08-Nov-2017 22:11:45 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[08-Nov-2017 22:11:45 UTC] PHP   3. Tasks->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[08-Nov-2017 22:11:45 UTC] PHP   4. CI_Controller->__construct() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:8
+[08-Nov-2017 22:11:45 UTC] PHP   5. CI_Loader->initialize() /home/ubuntu/workspace/crm/system/core/Controller.php:79
+[08-Nov-2017 22:11:45 UTC] PHP   6. CI_Loader->_ci_autoloader() /home/ubuntu/workspace/crm/system/core/Loader.php:157
+[08-Nov-2017 22:11:45 UTC] PHP   7. CI_Loader->language() /home/ubuntu/workspace/crm/system/core/Loader.php:1334
+[08-Nov-2017 22:11:45 UTC] PHP   8. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Loader.php:681
+[08-Nov-2017 22:11:45 UTC] PHP   9. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Lang.php:94
+[08-Nov-2017 22:11:51 UTC] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /home/ubuntu/workspace/crm/application/language/english/content_lang.php on line 1132
+[08-Nov-2017 22:11:51 UTC] PHP Stack trace:
+[08-Nov-2017 22:11:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[08-Nov-2017 22:11:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[08-Nov-2017 22:11:51 UTC] PHP   3. Tasks->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[08-Nov-2017 22:11:51 UTC] PHP   4. CI_Controller->__construct() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:8
+[08-Nov-2017 22:11:51 UTC] PHP   5. CI_Loader->initialize() /home/ubuntu/workspace/crm/system/core/Controller.php:79
+[08-Nov-2017 22:11:51 UTC] PHP   6. CI_Loader->_ci_autoloader() /home/ubuntu/workspace/crm/system/core/Loader.php:157
+[08-Nov-2017 22:11:51 UTC] PHP   7. CI_Loader->language() /home/ubuntu/workspace/crm/system/core/Loader.php:1334
+[08-Nov-2017 22:11:51 UTC] PHP   8. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Loader.php:681
+[08-Nov-2017 22:11:51 UTC] PHP   9. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Lang.php:94
+[08-Nov-2017 22:11:53 UTC] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /home/ubuntu/workspace/crm/application/language/english/content_lang.php on line 1132
+[08-Nov-2017 22:11:53 UTC] PHP Stack trace:
+[08-Nov-2017 22:11:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[08-Nov-2017 22:11:53 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[08-Nov-2017 22:11:53 UTC] PHP   3. Files->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[08-Nov-2017 22:11:53 UTC] PHP   4. CI_Controller->__construct() /home/ubuntu/workspace/crm/application/controllers/Files.php:8
+[08-Nov-2017 22:11:53 UTC] PHP   5. CI_Loader->initialize() /home/ubuntu/workspace/crm/system/core/Controller.php:79
+[08-Nov-2017 22:11:53 UTC] PHP   6. CI_Loader->_ci_autoloader() /home/ubuntu/workspace/crm/system/core/Loader.php:157
+[08-Nov-2017 22:11:53 UTC] PHP   7. CI_Loader->language() /home/ubuntu/workspace/crm/system/core/Loader.php:1334
+[08-Nov-2017 22:11:53 UTC] PHP   8. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Loader.php:681
+[08-Nov-2017 22:11:53 UTC] PHP   9. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Lang.php:94
+[08-Nov-2017 22:11:54 UTC] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /home/ubuntu/workspace/crm/application/language/english/content_lang.php on line 1132
+[08-Nov-2017 22:11:54 UTC] PHP Stack trace:
+[08-Nov-2017 22:11:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[08-Nov-2017 22:11:54 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[08-Nov-2017 22:11:54 UTC] PHP   3. Tasks->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[08-Nov-2017 22:11:54 UTC] PHP   4. CI_Controller->__construct() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:8
+[08-Nov-2017 22:11:54 UTC] PHP   5. CI_Loader->initialize() /home/ubuntu/workspace/crm/system/core/Controller.php:79
+[08-Nov-2017 22:11:54 UTC] PHP   6. CI_Loader->_ci_autoloader() /home/ubuntu/workspace/crm/system/core/Loader.php:157
+[08-Nov-2017 22:11:54 UTC] PHP   7. CI_Loader->language() /home/ubuntu/workspace/crm/system/core/Loader.php:1334
+[08-Nov-2017 22:11:54 UTC] PHP   8. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Loader.php:681
+[08-Nov-2017 22:11:54 UTC] PHP   9. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Lang.php:94
+[08-Nov-2017 22:11:54 UTC] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /home/ubuntu/workspace/crm/application/language/english/content_lang.php on line 1132
+[08-Nov-2017 22:11:54 UTC] PHP Stack trace:
+[08-Nov-2017 22:11:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[08-Nov-2017 22:11:54 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[08-Nov-2017 22:11:54 UTC] PHP   3. Tasks->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[08-Nov-2017 22:11:54 UTC] PHP   4. CI_Controller->__construct() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:8
+[08-Nov-2017 22:11:54 UTC] PHP   5. CI_Loader->initialize() /home/ubuntu/workspace/crm/system/core/Controller.php:79
+[08-Nov-2017 22:11:54 UTC] PHP   6. CI_Loader->_ci_autoloader() /home/ubuntu/workspace/crm/system/core/Loader.php:157
+[08-Nov-2017 22:11:54 UTC] PHP   7. CI_Loader->language() /home/ubuntu/workspace/crm/system/core/Loader.php:1334
+[08-Nov-2017 22:11:54 UTC] PHP   8. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Loader.php:681
+[08-Nov-2017 22:11:54 UTC] PHP   9. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Lang.php:94
+[08-Nov-2017 22:11:55 UTC] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /home/ubuntu/workspace/crm/application/language/english/content_lang.php on line 1132
+[08-Nov-2017 22:11:55 UTC] PHP Stack trace:
+[08-Nov-2017 22:11:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[08-Nov-2017 22:11:55 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[08-Nov-2017 22:11:55 UTC] PHP   3. Calendar->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[08-Nov-2017 22:11:55 UTC] PHP   4. CI_Controller->__construct() /home/ubuntu/workspace/crm/application/controllers/Calendar.php:8
+[08-Nov-2017 22:11:55 UTC] PHP   5. CI_Loader->initialize() /home/ubuntu/workspace/crm/system/core/Controller.php:79
+[08-Nov-2017 22:11:55 UTC] PHP   6. CI_Loader->_ci_autoloader() /home/ubuntu/workspace/crm/system/core/Loader.php:157
+[08-Nov-2017 22:11:55 UTC] PHP   7. CI_Loader->language() /home/ubuntu/workspace/crm/system/core/Loader.php:1334
+[08-Nov-2017 22:11:55 UTC] PHP   8. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Loader.php:681
+[08-Nov-2017 22:11:55 UTC] PHP   9. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Lang.php:94
+[08-Nov-2017 22:11:57 UTC] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /home/ubuntu/workspace/crm/application/language/english/content_lang.php on line 1132
+[08-Nov-2017 22:11:57 UTC] PHP Stack trace:
+[08-Nov-2017 22:11:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[08-Nov-2017 22:11:57 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[08-Nov-2017 22:11:57 UTC] PHP   3. Projects->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[08-Nov-2017 22:11:57 UTC] PHP   4. CI_Controller->__construct() /home/ubuntu/workspace/crm/application/controllers/Projects.php:8
+[08-Nov-2017 22:11:57 UTC] PHP   5. CI_Loader->initialize() /home/ubuntu/workspace/crm/system/core/Controller.php:79
+[08-Nov-2017 22:11:57 UTC] PHP   6. CI_Loader->_ci_autoloader() /home/ubuntu/workspace/crm/system/core/Loader.php:157
+[08-Nov-2017 22:11:57 UTC] PHP   7. CI_Loader->language() /home/ubuntu/workspace/crm/system/core/Loader.php:1334
+[08-Nov-2017 22:11:57 UTC] PHP   8. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Loader.php:681
+[08-Nov-2017 22:11:57 UTC] PHP   9. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Lang.php:94
+[08-Nov-2017 22:12:21 UTC] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /home/ubuntu/workspace/crm/application/language/english/content_lang.php on line 1132
+[08-Nov-2017 22:12:21 UTC] PHP Stack trace:
+[08-Nov-2017 22:12:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[08-Nov-2017 22:12:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[08-Nov-2017 22:12:21 UTC] PHP   3. Notes->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[08-Nov-2017 22:12:21 UTC] PHP   4. CI_Controller->__construct() /home/ubuntu/workspace/crm/application/controllers/Notes.php:8
+[08-Nov-2017 22:12:21 UTC] PHP   5. CI_Loader->initialize() /home/ubuntu/workspace/crm/system/core/Controller.php:79
+[08-Nov-2017 22:12:21 UTC] PHP   6. CI_Loader->_ci_autoloader() /home/ubuntu/workspace/crm/system/core/Loader.php:157
+[08-Nov-2017 22:12:21 UTC] PHP   7. CI_Loader->language() /home/ubuntu/workspace/crm/system/core/Loader.php:1334
+[08-Nov-2017 22:12:21 UTC] PHP   8. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Loader.php:681
+[08-Nov-2017 22:12:21 UTC] PHP   9. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Lang.php:94
+[08-Nov-2017 22:12:22 UTC] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /home/ubuntu/workspace/crm/application/language/english/content_lang.php on line 1132
+[08-Nov-2017 22:12:22 UTC] PHP Stack trace:
+[08-Nov-2017 22:12:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[08-Nov-2017 22:12:22 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[08-Nov-2017 22:12:22 UTC] PHP   3. Home->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[08-Nov-2017 22:12:22 UTC] PHP   4. CI_Controller->__construct() /home/ubuntu/workspace/crm/application/controllers/Home.php:8
+[08-Nov-2017 22:12:22 UTC] PHP   5. CI_Loader->initialize() /home/ubuntu/workspace/crm/system/core/Controller.php:79
+[08-Nov-2017 22:12:22 UTC] PHP   6. CI_Loader->_ci_autoloader() /home/ubuntu/workspace/crm/system/core/Loader.php:157
+[08-Nov-2017 22:12:22 UTC] PHP   7. CI_Loader->language() /home/ubuntu/workspace/crm/system/core/Loader.php:1334
+[08-Nov-2017 22:12:22 UTC] PHP   8. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Loader.php:681
+[08-Nov-2017 22:12:22 UTC] PHP   9. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Lang.php:94
+[08-Nov-2017 22:12:39 UTC] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /home/ubuntu/workspace/crm/application/language/english/content_lang.php on line 1132
+[08-Nov-2017 22:12:39 UTC] PHP Stack trace:
+[08-Nov-2017 22:12:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[08-Nov-2017 22:12:39 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[08-Nov-2017 22:12:39 UTC] PHP   3. Home->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[08-Nov-2017 22:12:39 UTC] PHP   4. CI_Controller->__construct() /home/ubuntu/workspace/crm/application/controllers/Home.php:8
+[08-Nov-2017 22:12:39 UTC] PHP   5. CI_Loader->initialize() /home/ubuntu/workspace/crm/system/core/Controller.php:79
+[08-Nov-2017 22:12:39 UTC] PHP   6. CI_Loader->_ci_autoloader() /home/ubuntu/workspace/crm/system/core/Loader.php:157
+[08-Nov-2017 22:12:39 UTC] PHP   7. CI_Loader->language() /home/ubuntu/workspace/crm/system/core/Loader.php:1334
+[08-Nov-2017 22:12:39 UTC] PHP   8. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Loader.php:681
+[08-Nov-2017 22:12:39 UTC] PHP   9. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Lang.php:94
+[08-Nov-2017 22:13:06 UTC] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /home/ubuntu/workspace/crm/application/language/english/content_lang.php on line 1132
+[08-Nov-2017 22:13:06 UTC] PHP Stack trace:
+[08-Nov-2017 22:13:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[08-Nov-2017 22:13:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[08-Nov-2017 22:13:06 UTC] PHP   3. Home->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[08-Nov-2017 22:13:06 UTC] PHP   4. CI_Controller->__construct() /home/ubuntu/workspace/crm/application/controllers/Home.php:8
+[08-Nov-2017 22:13:06 UTC] PHP   5. CI_Loader->initialize() /home/ubuntu/workspace/crm/system/core/Controller.php:79
+[08-Nov-2017 22:13:06 UTC] PHP   6. CI_Loader->_ci_autoloader() /home/ubuntu/workspace/crm/system/core/Loader.php:157
+[08-Nov-2017 22:13:06 UTC] PHP   7. CI_Loader->language() /home/ubuntu/workspace/crm/system/core/Loader.php:1334
+[08-Nov-2017 22:13:06 UTC] PHP   8. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Loader.php:681
+[08-Nov-2017 22:13:06 UTC] PHP   9. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Lang.php:94
+[08-Nov-2017 22:13:28 UTC] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /home/ubuntu/workspace/crm/application/language/english/content_lang.php on line 1132
+[08-Nov-2017 22:13:28 UTC] PHP Stack trace:
+[08-Nov-2017 22:13:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[08-Nov-2017 22:13:28 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[08-Nov-2017 22:13:28 UTC] PHP   3. Home->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[08-Nov-2017 22:13:28 UTC] PHP   4. CI_Controller->__construct() /home/ubuntu/workspace/crm/application/controllers/Home.php:8
+[08-Nov-2017 22:13:28 UTC] PHP   5. CI_Loader->initialize() /home/ubuntu/workspace/crm/system/core/Controller.php:79
+[08-Nov-2017 22:13:28 UTC] PHP   6. CI_Loader->_ci_autoloader() /home/ubuntu/workspace/crm/system/core/Loader.php:157
+[08-Nov-2017 22:13:28 UTC] PHP   7. CI_Loader->language() /home/ubuntu/workspace/crm/system/core/Loader.php:1334
+[08-Nov-2017 22:13:28 UTC] PHP   8. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Loader.php:681
+[08-Nov-2017 22:13:28 UTC] PHP   9. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Lang.php:94
+[08-Nov-2017 22:13:31 UTC] PHP Parse error:  syntax error, unexpected '$lang' (T_VARIABLE) in /home/ubuntu/workspace/crm/application/language/english/content_lang.php on line 1132
+[08-Nov-2017 22:13:31 UTC] PHP Stack trace:
+[08-Nov-2017 22:13:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[08-Nov-2017 22:13:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[08-Nov-2017 22:13:31 UTC] PHP   3. Home->__construct() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:518
+[08-Nov-2017 22:13:31 UTC] PHP   4. CI_Controller->__construct() /home/ubuntu/workspace/crm/application/controllers/Home.php:8
+[08-Nov-2017 22:13:31 UTC] PHP   5. CI_Loader->initialize() /home/ubuntu/workspace/crm/system/core/Controller.php:79
+[08-Nov-2017 22:13:31 UTC] PHP   6. CI_Loader->_ci_autoloader() /home/ubuntu/workspace/crm/system/core/Loader.php:157
+[08-Nov-2017 22:13:31 UTC] PHP   7. CI_Loader->language() /home/ubuntu/workspace/crm/system/core/Loader.php:1334
+[08-Nov-2017 22:13:31 UTC] PHP   8. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Loader.php:681
+[08-Nov-2017 22:13:31 UTC] PHP   9. CI_Lang->load() /home/ubuntu/workspace/crm/system/core/Lang.php:94
+[12-Feb-2018 11:06:04 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Reports.php on line 395
+[12-Feb-2018 11:06:04 UTC] PHP Stack trace:
+[12-Feb-2018 11:06:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[12-Feb-2018 11:06:04 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[12-Feb-2018 11:06:19 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Reports.php on line 395
+[12-Feb-2018 11:06:19 UTC] PHP Stack trace:
+[12-Feb-2018 11:06:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[12-Feb-2018 11:06:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[12-Feb-2018 11:06:25 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Reports.php on line 395
+[12-Feb-2018 11:06:25 UTC] PHP Stack trace:
+[12-Feb-2018 11:06:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[12-Feb-2018 11:06:25 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[13-Feb-2018 14:24:16 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Reports.php on line 395
+[13-Feb-2018 14:24:16 UTC] PHP Stack trace:
+[13-Feb-2018 14:24:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[13-Feb-2018 14:24:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[13-Feb-2018 14:24:24 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Reports.php on line 395
+[13-Feb-2018 14:24:24 UTC] PHP Stack trace:
+[13-Feb-2018 14:24:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[13-Feb-2018 14:24:24 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[14-Feb-2018 21:52:53 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Reports.php on line 395
+[14-Feb-2018 21:52:53 UTC] PHP Stack trace:
+[14-Feb-2018 21:52:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[14-Feb-2018 21:52:53 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Feb-2018 10:21:34 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Reports.php on line 395
+[15-Feb-2018 10:21:34 UTC] PHP Stack trace:
+[15-Feb-2018 10:21:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Feb-2018 10:21:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Feb-2018 10:21:43 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Reports.php on line 395
+[15-Feb-2018 10:21:43 UTC] PHP Stack trace:
+[15-Feb-2018 10:21:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Feb-2018 10:21:43 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Feb-2018 10:21:50 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Reports.php on line 395
+[15-Feb-2018 10:21:50 UTC] PHP Stack trace:
+[15-Feb-2018 10:21:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Feb-2018 10:21:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Feb-2018 10:22:36 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/crm/application/controllers/Reports.php on line 395
+[15-Feb-2018 10:22:36 UTC] PHP Stack trace:
+[15-Feb-2018 10:22:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Feb-2018 10:22:36 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Feb-2018 11:27:12 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/ubuntu/workspace/crm/application/views/home/index.php on line 195
+[15-Feb-2018 11:27:12 UTC] PHP Stack trace:
+[15-Feb-2018 11:27:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Feb-2018 11:27:12 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Feb-2018 11:27:12 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 11:27:12 UTC] PHP   4. Home->index() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 11:27:12 UTC] PHP   5. Template->loadContent() /home/ubuntu/workspace/crm/application/controllers/Home.php:157
+[15-Feb-2018 11:27:12 UTC] PHP   6. CI_Loader->view() /home/ubuntu/workspace/crm/application/libraries/Template.php:33
+[15-Feb-2018 11:27:12 UTC] PHP   7. CI_Loader->_ci_load() /home/ubuntu/workspace/crm/system/core/Loader.php:489
+[15-Feb-2018 11:27:12 UTC] PHP   8. include() /home/ubuntu/workspace/crm/system/core/Loader.php:962
+[15-Feb-2018 11:27:21 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/ubuntu/workspace/crm/application/views/home/index.php on line 195
+[15-Feb-2018 11:27:21 UTC] PHP Stack trace:
+[15-Feb-2018 11:27:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Feb-2018 11:27:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Feb-2018 11:27:21 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 11:27:21 UTC] PHP   4. Home->index() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 11:27:21 UTC] PHP   5. Template->loadContent() /home/ubuntu/workspace/crm/application/controllers/Home.php:157
+[15-Feb-2018 11:27:21 UTC] PHP   6. CI_Loader->view() /home/ubuntu/workspace/crm/application/libraries/Template.php:33
+[15-Feb-2018 11:27:21 UTC] PHP   7. CI_Loader->_ci_load() /home/ubuntu/workspace/crm/system/core/Loader.php:489
+[15-Feb-2018 11:27:21 UTC] PHP   8. include() /home/ubuntu/workspace/crm/system/core/Loader.php:962
+[15-Feb-2018 11:59:40 UTC] PHP Fatal error:  Call to undefined function secondsToTime() in /home/ubuntu/workspace/crm/application/views/home/index.php on line 80
+[15-Feb-2018 11:59:40 UTC] PHP Stack trace:
+[15-Feb-2018 11:59:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Feb-2018 11:59:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Feb-2018 11:59:40 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 11:59:40 UTC] PHP   4. Home->index() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 11:59:40 UTC] PHP   5. Template->loadContent() /home/ubuntu/workspace/crm/application/controllers/Home.php:157
+[15-Feb-2018 11:59:40 UTC] PHP   6. CI_Loader->view() /home/ubuntu/workspace/crm/application/libraries/Template.php:33
+[15-Feb-2018 11:59:40 UTC] PHP   7. CI_Loader->_ci_load() /home/ubuntu/workspace/crm/system/core/Loader.php:489
+[15-Feb-2018 11:59:40 UTC] PHP   8. include() /home/ubuntu/workspace/crm/system/core/Loader.php:962
+[15-Feb-2018 11:59:57 UTC] PHP Fatal error:  Call to undefined function secondsToTime() in /home/ubuntu/workspace/crm/application/views/home/index.php on line 80
+[15-Feb-2018 11:59:57 UTC] PHP Stack trace:
+[15-Feb-2018 11:59:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Feb-2018 11:59:57 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Feb-2018 11:59:57 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 11:59:57 UTC] PHP   4. Home->index() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 11:59:57 UTC] PHP   5. Template->loadContent() /home/ubuntu/workspace/crm/application/controllers/Home.php:157
+[15-Feb-2018 11:59:57 UTC] PHP   6. CI_Loader->view() /home/ubuntu/workspace/crm/application/libraries/Template.php:33
+[15-Feb-2018 11:59:57 UTC] PHP   7. CI_Loader->_ci_load() /home/ubuntu/workspace/crm/system/core/Loader.php:489
+[15-Feb-2018 11:59:57 UTC] PHP   8. include() /home/ubuntu/workspace/crm/system/core/Loader.php:962
+[15-Feb-2018 12:57:01 UTC] PHP Parse error:  syntax error, unexpected '$prj_tasks' (T_VARIABLE) in /home/ubuntu/workspace/crm/application/views/home/index.php on line 99
+[15-Feb-2018 12:57:01 UTC] PHP Stack trace:
+[15-Feb-2018 12:57:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Feb-2018 12:57:01 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Feb-2018 12:57:01 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 12:57:01 UTC] PHP   4. Home->index() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 12:57:01 UTC] PHP   5. Template->loadContent() /home/ubuntu/workspace/crm/application/controllers/Home.php:157
+[15-Feb-2018 12:57:01 UTC] PHP   6. CI_Loader->view() /home/ubuntu/workspace/crm/application/libraries/Template.php:33
+[15-Feb-2018 12:57:01 UTC] PHP   7. CI_Loader->_ci_load() /home/ubuntu/workspace/crm/system/core/Loader.php:489
+[15-Feb-2018 12:59:40 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/crm/application/views/home/index.php on line 130
+[15-Feb-2018 12:59:40 UTC] PHP Stack trace:
+[15-Feb-2018 12:59:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Feb-2018 12:59:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Feb-2018 12:59:40 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 12:59:40 UTC] PHP   4. Home->index() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 12:59:40 UTC] PHP   5. Template->loadContent() /home/ubuntu/workspace/crm/application/controllers/Home.php:157
+[15-Feb-2018 12:59:40 UTC] PHP   6. CI_Loader->view() /home/ubuntu/workspace/crm/application/libraries/Template.php:33
+[15-Feb-2018 12:59:40 UTC] PHP   7. CI_Loader->_ci_load() /home/ubuntu/workspace/crm/system/core/Loader.php:489
+[15-Feb-2018 12:59:40 UTC] PHP   8. include() /home/ubuntu/workspace/crm/system/core/Loader.php:962
+[15-Feb-2018 12:59:42 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/crm/application/views/home/index.php on line 130
+[15-Feb-2018 12:59:42 UTC] PHP Stack trace:
+[15-Feb-2018 12:59:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Feb-2018 12:59:42 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Feb-2018 12:59:42 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 12:59:42 UTC] PHP   4. Home->index() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 12:59:42 UTC] PHP   5. Template->loadContent() /home/ubuntu/workspace/crm/application/controllers/Home.php:157
+[15-Feb-2018 12:59:42 UTC] PHP   6. CI_Loader->view() /home/ubuntu/workspace/crm/application/libraries/Template.php:33
+[15-Feb-2018 12:59:42 UTC] PHP   7. CI_Loader->_ci_load() /home/ubuntu/workspace/crm/system/core/Loader.php:489
+[15-Feb-2018 12:59:42 UTC] PHP   8. include() /home/ubuntu/workspace/crm/system/core/Loader.php:962
+[15-Feb-2018 13:00:05 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/crm/application/views/home/index.php on line 130
+[15-Feb-2018 13:00:05 UTC] PHP Stack trace:
+[15-Feb-2018 13:00:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Feb-2018 13:00:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Feb-2018 13:00:05 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 13:00:05 UTC] PHP   4. Home->index() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 13:00:05 UTC] PHP   5. Template->loadContent() /home/ubuntu/workspace/crm/application/controllers/Home.php:157
+[15-Feb-2018 13:00:05 UTC] PHP   6. CI_Loader->view() /home/ubuntu/workspace/crm/application/libraries/Template.php:33
+[15-Feb-2018 13:00:05 UTC] PHP   7. CI_Loader->_ci_load() /home/ubuntu/workspace/crm/system/core/Loader.php:489
+[15-Feb-2018 13:00:05 UTC] PHP   8. include() /home/ubuntu/workspace/crm/system/core/Loader.php:962
+[15-Feb-2018 13:00:22 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/crm/application/views/home/index.php on line 130
+[15-Feb-2018 13:00:22 UTC] PHP Stack trace:
+[15-Feb-2018 13:00:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Feb-2018 13:00:22 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[15-Feb-2018 13:00:22 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 13:00:22 UTC] PHP   4. Home->index() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[15-Feb-2018 13:00:22 UTC] PHP   5. Template->loadContent() /home/ubuntu/workspace/crm/application/controllers/Home.php:157
+[15-Feb-2018 13:00:22 UTC] PHP   6. CI_Loader->view() /home/ubuntu/workspace/crm/application/libraries/Template.php:33
+[15-Feb-2018 13:00:22 UTC] PHP   7. CI_Loader->_ci_load() /home/ubuntu/workspace/crm/system/core/Loader.php:489
+[15-Feb-2018 13:00:22 UTC] PHP   8. include() /home/ubuntu/workspace/crm/system/core/Loader.php:962
+[15-Feb-2018 20:35:15 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/ubuntu/workspace/crm/application/controllers/Home.php on line 157
+[15-Feb-2018 20:35:15 UTC] PHP Stack trace:
+[15-Feb-2018 20:35:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[15-Feb-2018 20:35:15 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:41 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:41 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:41 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:41 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:41 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:41 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:41 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:30:41 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:41 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:41 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:41 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:41 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:41 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:41 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:30:41 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:41 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:41 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:41 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:41 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:41 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:41 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:30:41 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:41 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:41 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:41 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:41 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:41 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:41 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:30:45 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:45 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:45 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:45 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:45 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:45 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:45 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:45 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:30:45 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:45 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:45 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:45 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:45 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:45 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:45 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:45 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:30:45 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:45 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:45 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:45 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:45 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:45 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:45 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:45 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:30:45 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:45 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:45 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:45 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:45 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:45 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:45 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:45 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:30:51 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:51 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:51 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:51 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:51 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:51 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:51 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:30:51 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:51 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:51 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:51 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:51 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:51 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:51 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:30:51 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:51 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:51 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:51 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:51 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:51 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:51 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:30:51 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:51 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:51 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:51 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:51 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:51 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:51 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:30:56 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:56 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:56 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:56 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:56 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:56 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:56 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:30:56 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:56 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:56 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:56 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:56 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:56 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:56 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:30:56 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:56 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:56 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:56 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:56 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:56 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:56 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:30:56 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:30:56 UTC] PHP Stack trace:
+[17-Sep-2018 19:30:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:30:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:30:56 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:30:56 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:30:56 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:30:56 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:30:56 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:00 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:00 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:00 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:00 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:00 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:00 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:00 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:00 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:00 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:00 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:00 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:00 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:00 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:00 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:00 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:00 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:00 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:00 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:00 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:00 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:00 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:00 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:00 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:00 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:00 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:00 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:00 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:00 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:05 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:05 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:05 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:05 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:05 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:05 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:05 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:05 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:05 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:05 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:05 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:05 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:05 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:05 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:05 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:05 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:05 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:05 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:05 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:05 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:05 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:05 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:05 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:05 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:05 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:05 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:05 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:05 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:10 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:10 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:10 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:10 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:10 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:10 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:10 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:10 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:10 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:10 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:10 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:10 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:10 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:10 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:10 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:10 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:10 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:10 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:10 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:10 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:10 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:10 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:10 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:10 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:10 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:10 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:10 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:10 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:16 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:16 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:16 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:16 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:16 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:16 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:16 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:16 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:16 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:16 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:16 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:16 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:16 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:16 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:16 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:16 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:16 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:16 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:16 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:16 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:16 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:16 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:16 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:16 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:16 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:16 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:16 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:16 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:20 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:20 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:20 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:20 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:20 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:20 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:20 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:20 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:20 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:20 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:20 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:20 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:20 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:20 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:20 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:20 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:20 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:20 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:20 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:20 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:20 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:20 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:20 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:20 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:20 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:20 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:20 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:20 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:26 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:26 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:26 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:26 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:26 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:26 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:26 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:26 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:26 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:26 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:26 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:26 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:26 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:26 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:26 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:26 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:26 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:26 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:26 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:26 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:26 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:26 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:26 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:26 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:26 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:26 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:26 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:26 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:31 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:31 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:31 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:31 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:31 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:31 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:31 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:31 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:31 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:31 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:31 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:31 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:31 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:31 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:31 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:31 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:31 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:31 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:31 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:31 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:31 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:31 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:31 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:31 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:31 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:31 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:31 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:31 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:35 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:35 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:35 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:35 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:35 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:35 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:35 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:35 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:35 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:35 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:35 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:35 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:35 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:35 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:35 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:35 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:35 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:35 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:35 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:35 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:35 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:35 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:35 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:35 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:35 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:35 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:35 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:35 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:35 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:35 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:35 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:35 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:41 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:41 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:41 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:41 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:41 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:41 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:41 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:41 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:41 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:41 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:41 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:41 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:41 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:41 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:41 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:41 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:41 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:41 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:41 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:41 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:41 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:41 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:41 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:41 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:41 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:41 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:41 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:41 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:46 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:46 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:46 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:46 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:46 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:46 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:46 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:46 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:46 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:46 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:46 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:46 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:46 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:46 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:46 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:46 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:46 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:46 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:46 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:46 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:46 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:46 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:46 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:46 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:46 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:46 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:46 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:46 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:50 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:50 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:50 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:50 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:50 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:50 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:50 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:50 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:50 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:50 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:50 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:50 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:50 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:50 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:50 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:50 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:50 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:50 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:50 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:50 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:50 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:50 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:50 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:50 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:50 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:50 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:50 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:50 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:56 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:56 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:56 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:56 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:56 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:56 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:56 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:56 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:56 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:56 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:56 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:56 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:56 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:56 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:56 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:56 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:56 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:56 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:56 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:56 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:56 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:31:56 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:31:56 UTC] PHP Stack trace:
+[17-Sep-2018 19:31:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:31:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:31:56 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:31:56 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:31:56 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:31:56 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:31:56 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:00 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:00 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:00 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:00 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:00 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:00 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:00 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:00 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:00 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:00 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:00 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:00 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:00 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:00 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:00 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:00 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:00 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:00 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:00 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:00 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:00 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:00 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:00 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:00 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:00 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:00 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:00 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:00 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:06 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:06 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:06 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:06 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:06 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:06 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:06 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:06 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:06 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:06 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:06 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:06 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:06 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:06 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:06 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:06 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:06 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:06 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:06 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:06 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:06 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:06 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:06 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:06 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:06 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:06 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:06 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:06 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:11 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:11 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:11 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:11 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:11 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:11 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:11 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:11 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:11 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:11 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:11 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:11 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:11 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:11 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:11 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:11 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:11 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:11 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:11 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:11 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:11 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:11 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:11 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:11 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:11 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:11 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:11 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:11 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:16 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:16 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:16 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:16 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:16 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:16 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:16 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:16 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:16 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:16 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:16 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:16 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:16 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:16 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:16 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:16 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:16 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:16 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:16 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:16 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:16 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:16 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:16 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:16 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:16 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:16 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:16 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:16 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:21 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:21 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:21 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:21 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:21 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:21 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:21 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:21 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:21 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:21 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:21 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:21 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:21 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:21 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:21 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:21 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:21 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:21 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:21 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:21 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:21 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:21 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:21 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:21 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:21 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:21 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:21 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:21 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:26 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:26 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:26 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:26 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:26 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:26 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:26 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:26 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:26 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:26 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:26 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:26 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:26 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:26 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:26 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:26 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:26 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:26 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:26 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:26 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:26 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:26 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:26 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:26 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:26 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:26 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:26 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:26 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:31 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:31 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:31 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:31 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:31 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:31 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:31 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:31 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:31 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:31 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:31 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:31 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:31 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:31 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:31 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:31 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:31 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:31 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:31 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:31 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:31 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:31 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:31 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:31 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:31 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:31 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:31 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:31 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:36 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:36 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:36 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:36 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:36 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:36 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:36 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:36 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:36 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:36 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:36 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:36 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:36 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:36 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:36 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:36 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:36 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:36 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:36 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:36 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:36 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:36 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:36 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:36 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:36 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:36 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:36 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:36 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:36 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:36 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:36 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:36 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:41 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:41 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:41 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:41 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:41 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:41 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:41 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:41 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:41 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:41 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:41 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:41 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:41 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:41 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:41 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:41 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:41 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:41 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:41 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:41 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:41 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:41 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:41 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:41 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:41 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:41 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:41 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:41 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:46 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:46 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:46 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:46 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:46 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:46 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:46 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:46 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:46 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:46 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:46 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:46 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:46 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:46 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:46 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:46 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:46 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:46 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:46 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:46 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:46 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:46 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:46 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:46 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:46 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:46 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:46 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:46 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:51 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:51 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:51 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:51 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:51 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:51 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:51 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:51 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:51 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:51 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:51 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:51 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:51 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:51 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:51 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:51 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:51 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:51 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:51 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:51 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:51 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:51 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:51 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:51 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:51 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:51 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:51 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:51 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:56 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:56 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:56 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:56 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:56 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:56 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:56 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:56 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:56 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:56 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:56 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:56 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:56 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:56 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:56 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:56 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:56 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:56 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:56 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:56 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:56 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:32:56 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:32:56 UTC] PHP Stack trace:
+[17-Sep-2018 19:32:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:32:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:32:56 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:32:56 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:32:56 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:32:56 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:32:56 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:33:00 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:33:00 UTC] PHP Stack trace:
+[17-Sep-2018 19:33:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:33:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:33:00 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:33:00 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:33:00 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:33:00 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:33:00 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:33:00 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:33:00 UTC] PHP Stack trace:
+[17-Sep-2018 19:33:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:33:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:33:00 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:33:00 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:33:00 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:33:00 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:33:00 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:33:00 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:33:00 UTC] PHP Stack trace:
+[17-Sep-2018 19:33:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:33:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:33:00 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:33:00 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:33:00 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:33:00 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:33:00 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:33:00 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:33:00 UTC] PHP Stack trace:
+[17-Sep-2018 19:33:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:33:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:33:00 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:33:00 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:33:00 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:33:00 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:33:00 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:33:10 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:33:10 UTC] PHP Stack trace:
+[17-Sep-2018 19:33:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:33:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:33:10 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:33:10 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:33:10 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:33:10 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:33:10 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:33:10 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:33:10 UTC] PHP Stack trace:
+[17-Sep-2018 19:33:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:33:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:33:10 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:33:10 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:33:10 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:33:10 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:33:10 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:33:10 UTC] PHP Warning:  include(/home/ubuntu/workspace/crm/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:33:10 UTC] PHP Stack trace:
+[17-Sep-2018 19:33:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:33:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:33:10 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:33:10 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:33:10 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:33:10 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:33:10 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 19:33:10 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/crm/application//errors/html/error_php.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/system/core/Exceptions.php on line 268
+[17-Sep-2018 19:33:10 UTC] PHP Stack trace:
+[17-Sep-2018 19:33:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 19:33:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 19:33:10 UTC] PHP   3. show_404() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:494
+[17-Sep-2018 19:33:10 UTC] PHP   4. CI_Exceptions->show_404() /home/ubuntu/workspace/crm/system/core/Common.php:440
+[17-Sep-2018 19:33:10 UTC] PHP   5. CI_Exceptions->show_error() /home/ubuntu/workspace/crm/system/core/Exceptions.php:138
+[17-Sep-2018 19:33:10 UTC] PHP   6. _error_handler() /home/ubuntu/workspace/crm/system/core/Exceptions.php:182
+[17-Sep-2018 19:33:10 UTC] PHP   7. CI_Exceptions->show_php_error() /home/ubuntu/workspace/crm/system/core/Common.php:623
+[17-Sep-2018 20:08:20 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2320
+[17-Sep-2018 20:08:20 UTC] PHP Stack trace:
+[17-Sep-2018 20:08:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 20:08:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 20:08:22 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2320
+[17-Sep-2018 20:08:22 UTC] PHP Stack trace:
+[17-Sep-2018 20:08:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 20:08:22 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 20:08:23 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2320
+[17-Sep-2018 20:08:23 UTC] PHP Stack trace:
+[17-Sep-2018 20:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 20:08:23 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[17-Sep-2018 20:08:24 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2320
+[17-Sep-2018 20:08:24 UTC] PHP Stack trace:
+[17-Sep-2018 20:08:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[17-Sep-2018 20:08:24 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315

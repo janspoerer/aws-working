@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_32.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_48.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_96.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="./assets/162d54ea/favicon/favicon_144.ico"/>
+        <link href="./assets/f4229b5b/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/c2375654/github-gist.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/fonts.min.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/bootstrap.min.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/api.css" rel="stylesheet">
+<link href="./assets/162d54ea/css/style.css" rel="stylesheet">
+<script src="./assets/a94e8dbd/jquery.js"></script>
+<script src="./assets/f4229b5b/js/bootstrap.js"></script>
+<script src="./assets/aec6ec4/jssearch.js"></script>    <title>Customizing Easy Forms - First steps - Easy Forms</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w126" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w126-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html"><span class="app-name">Easy Forms</span></a></div><div id="w126-collapse" class="collapse navbar-collapse"><ul id="w127" class="navbar-nav nav"><li><a href="./index.html">Documentation</a></li></ul>
+    <div class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+            <input id="searchbox" type="text" class="form-control" placeholder="Search">
+        </div>
+    </div>
+    </div></div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    <div class="container">
+        
+<div class="row">
+    <div class="col-md-2">
+                <div id="navigation" class="list-group"><a class="list-group-item active" href="#navigation-120" data-toggle="collapse" data-parent="#navigation">First steps <b class="caret"></b></a><div id="navigation-120" class="submenu panel-collapse collapse in"><a class="list-group-item" href="./intro-easy-forms.html">About Easy Forms</a>
+<a class="list-group-item" href="./system-requirements.html">Requirements</a>
+<a class="list-group-item" href="./start-installation.html">Installing Easy Forms</a>
+<a class="list-group-item active" href="./start-customization.html">Customizing Easy Forms</a>
+<a class="list-group-item" href="./start-upgrading.html">Upgrading Easy Forms</a>
+<a class="list-group-item" href="./email-setup.html">Email Setup</a></div>
+<a class="list-group-item" href="#navigation-121" data-toggle="collapse" data-parent="#navigation">Forms <b class="caret"></b></a><div id="navigation-121" class="submenu panel-collapse collapse"><a class="list-group-item" href="./form-manager.html">Form Manager</a>
+<a class="list-group-item" href="./form-builder.html">Form Builder</a>
+<a class="list-group-item" href="./rule-builder.html">Rule Builder</a>
+<a class="list-group-item" href="./submission-manager.html">Submission Manager</a>
+<a class="list-group-item" href="./form-report-builder.html">Report Builder</a>
+<a class="list-group-item" href="./form-analytics.html">In-App Analytics</a>
+<a class="list-group-item" href="./form-widget.html">Form Widget</a></div>
+<a class="list-group-item" href="#navigation-122" data-toggle="collapse" data-parent="#navigation">Templates <b class="caret"></b></a><div id="navigation-122" class="submenu panel-collapse collapse"><a class="list-group-item" href="./template-manager.html">Template Manager</a></div>
+<a class="list-group-item" href="#navigation-123" data-toggle="collapse" data-parent="#navigation">Themes <b class="caret"></b></a><div id="navigation-123" class="submenu panel-collapse collapse"><a class="list-group-item" href="./theme-manager.html">Theme Manager</a></div>
+<a class="list-group-item" href="#navigation-124" data-toggle="collapse" data-parent="#navigation">Users <b class="caret"></b></a><div id="navigation-124" class="submenu panel-collapse collapse"><a class="list-group-item" href="./user-manager.html">User Manager</a>
+<a class="list-group-item" href="./membership.html">Membership</a></div>
+<a class="list-group-item" href="#navigation-125" data-toggle="collapse" data-parent="#navigation">Add-ons <b class="caret"></b></a><div id="navigation-125" class="submenu panel-collapse collapse"><a class="list-group-item" href="./addon-manager.html">Add-on Manager</a>
+<a class="list-group-item" href="./addon-google-analytics.html">Google Analytics</a>
+<a class="list-group-item" href="./addon-webhooks.html">Webhooks</a>
+<a class="list-group-item" href="./addon-paypal.html">Paypal</a>
+<a class="list-group-item" href="./addon-aweber.html">AWeber</a></div></div>    </div>
+    <div class="col-md-9 guide-content" role="main">
+        <h1>Customizing Easy Forms <span id="customizing-easy-forms"></span><a href="#customizing-easy-forms" class="hashlink">&para;</a></h1>
+<div class="toc"><ol><li><a href="#introduction">Introduction</a></li>
+<li><a href="#changing-the-logo">Changing the logo</a></li>
+<li><a href="#changing-the-number-of-rows">Changing the number of rows</a></li>
+<li><a href="#limit-access-to-the-login-page-to-specific-ip-addresses">Limit Access to the Login Page to Specific IP Addresses</a></li>
+<li><a href="#compress-the-forms-uploaded-images">Compress the Forms' Uploaded Images</a></li>
+<li><a href="#change-language">Change language</a></li>
+<li><a href="#add-a-new-language">Add a new language</a></li></ol></div>
+<h2>Introduction <span id="introduction"></span><a href="#introduction" class="hashlink">&para;</a></h2><p>Easy Forms is an application developed in object oriented PHP under the MVC pattern. If you have programming skills, it will be easy to customize Easy Forms according to your requirements.</p>
+<p>However, this guide is intended for users who don't have programming knowledge.</p>
+<blockquote><p><strong>Note:</strong> @app refers to the application root directory.</p>
+</blockquote>
+<h2>Changing the logo <span id="changing-the-logo"></span><a href="#changing-the-logo" class="hashlink">&para;</a></h2><p>The first thing to do to customize your application is change the logo. The logo is not an image but a text that you can modify by simply renaming the application.</p>
+<p>To change the logo you must follow the next steps:</p>
+<ol>
+<li>Click on your username in the navigation menu.</li>
+<li>Click "Settings".</li>
+<li>Change the name to 'My Forms' or the name you prefer, better one short.</li>
+<li>Click "Update".</li>
+</ol>
+<p>The page will reload and will show a message to let you know that the update has been successful. Now 'My Forms' will appear as the application logo.</p>
+<p><img src="images/changing-logo.png" alt="Easy Forms - Changing the logo" /></p>
+<h2>Changing the number of rows <span id="changing-the-number-of-rows"></span><a href="#changing-the-number-of-rows" class="hashlink">&para;</a></h2><p>By default are show 5 rows on the Form Manager, Submission Manager, User Manager and others. You can change this very easily.</p>
+<p>For that:</p>
+<ol>
+<li>Open the file <code>@app/config/params.php</code>.</li>
+<li>Change the value of <code>'GridView.pagination.pageSize'</code> to `10 or the number of rows you want.</li>
+<li>Save the file.</li>
+</ol>
+<p>When you return to the app it will display the number of rows you have defined.</p>
+<p><img src="images/changing-the-number-of-rows.png" alt="Easy Forms - Changing the number of rows" /></p>
+<h2>Limit Access to the Login Page to Specific IP Addresses <span id="limit-access-to-the-login-page-to-specific-ip-addresses"></span><a href="#limit-access-to-the-login-page-to-specific-ip-addresses" class="hashlink">&para;</a></h2><p>Securing your site is important. After all, it means you are protecting not only your personal information and data, but also any information your users collect on your site.</p>
+<p>To limit the access to the login page to one or multiple static IP addresses:</p>
+<ol>
+<li>Open the following file: <code>@app/config/params.php</code></li>
+<li>Add one or more IP Addresses to the 'App.User.validIps' key</li>
+<li><em>Save</em> the file</li>
+</ol>
+<p>That's it! When an unauthorized visitor tries to access that page, they’ll see an error 404 - Page Not Found.</p>
+<blockquote><p><strong>Note:</strong> If you’re not sure what your IP address happens to be, just ask Google. Just type in “What is my IP” and Google will tell you.</p>
+</blockquote>
+<h2>Compress the Forms' Uploaded Images <span id="compress-the-forms-uploaded-images"></span><a href="#compress-the-forms-uploaded-images" class="hashlink">&para;</a></h2><p>You can reduce the images weight that users upload with your forms in a very simple way, just follow these steps:</p>
+<ol>
+<li>Open the file <code>@app/config/params.php</code>.</li>
+<li>Change the value of <code>'Form.Uploads.imageCompression'</code> to 70 or the compression number you want (between 0 and 99).</li>
+<li>Save the file.</li>
+</ol>
+<p><strong>Note:</strong> This feature is especially useful if your forms allow users to upload pictures from their mobile devices and you need to save hosting space.</p>
+<h2>Change language <span id="change-language"></span><a href="#change-language" class="hashlink">&para;</a></h2><p>Easy Forms comes with the English language by default. However, it let each user change the whole application language very easily, allowing them to see it in their own language.</p>
+<h3>Change the application language for a user <span id="change-the-application-language-for-a-user"></span><a href="#change-the-application-language-for-a-user" class="hashlink">&para;</a></h3><ol>
+<li>Go to the <a href="user-manager.html">User Manager</a></li>
+<li>Click on the "Actions" button of the User to update</li>
+<li>Click "Update"</li>
+<li>Change the language to Spanish</li>
+<li>Click "Save"</li>
+</ol>
+<p>From now on, if your user accesses the application, he will see the interface in Spanish.</p>
+<blockquote><p><strong>Note:</strong> Keep in mind that at any moment your user can change the application language. For this, he will only need to update the field Language of his User Profile.</p>
+</blockquote>
+<h3>Change the default application language <span id="change-the-default-application-language"></span><a href="#change-the-default-application-language" class="hashlink">&para;</a></h3><ol>
+<li>Open the configuration file <code>@app/config/web.php</code>.</li>
+<li>Find the line: <code>'language' =&gt; 'en-US’</code>, and replace <code>'en-US'</code> for another language you have translated, to Spanish for example: <code>‘es-ES’</code>.</li>
+</ol>
+<p>When you reload the application you will see that the application default language is Spanish.</p>
+<p><img src="images/dashboard-spanish-ui.png" alt="Easy Forms - Change the default application language" /></p>
+<h2>Add a new language <span id="add-a-new-language"></span><a href="#add-a-new-language" class="hashlink">&para;</a></h2><p>To add a new language to the application, you basically need two things:</p>
+<ol>
+<li>Translate English strings to the new language.</li>
+<li>Add the new language to the list of languages supported by the application.</li>
+</ol>
+<h3>1. Translate strings <span id="1-translate-strings"></span><a href="#1-translate-strings" class="hashlink">&para;</a></h3><p>To translate strings you must do the following:</p>
+<ol>
+<li>Locate the <code>@app/messages</code> folder and create a new folder which name include the ISO language code (in lowercase) and the ISO country code (in uppercase), separated by a hyphen. For example, Brazilian Portuguese, 'pt-BR'.</li>
+<li>Then copy the file app.php from the 'es-ES' folder and paste it into your new folder. Let's say in 'pt-BR'.</li>
+<li>Then translate strings from English to the new language (To continue our example, replace strings in Spanish to Portuguese).</li>
+<li>Save the file and the application will be translated to the new language.</li>
+</ol>
+<h3>2. Add new language to the application <span id="2-add-new-language-to-the-application"></span><a href="#2-add-new-language-to-the-application" class="hashlink">&para;</a></h3><p>To add your new language:</p>
+<ol>
+<li>Open the file @app/helpers/language.php</li>
+<li>Add the line <code>"pt-BR" =&gt; Yii :: t ('app', 'Portuguese'),</code> to <code>suportedLanguage()</code> method.</li>
+<li>Save the file</li>
+</ol>
+<p>Following the example, the method should end like:</p>
+<pre><code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">supportedLanguages</span><span class="hljs-params">()</span>
+</span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">array</span>(
+        <span class="hljs-string">"en-US"</span> =&gt; Yii::t(<span class="hljs-string">'app'</span>, <span class="hljs-string">'English'</span>),
+        <span class="hljs-string">"es-ES"</span> =&gt; Yii::t(<span class="hljs-string">'app'</span>, <span class="hljs-string">'Spanish'</span>),
+        <span class="hljs-string">"pt-BR"</span> =&gt; Yii::t(<span class="hljs-string">'app'</span>, <span class="hljs-string">'Portuguese'</span>),
+    );
+}
+</code></pre>
+<p>From now on, when you enter the application, you can change the language to portuguese from your User Profile.</p>
+<p><img src="images/add-new-language.png" alt="Easy Forms - Add new language to the application" /></p>
+<blockquote><p><strong>Note:</strong> Keep in mind that the text you type in the source code must be in English.</p>
+</blockquote>
+<p>Additional Step</p>
+<p>As added the 'Portuguese' string to the application, it is recommended to translate this string in both Spanish and Portuguese:</p>
+<ol>
+<li>Open the file <code>@app/messages/es-ES/app.php</code> and add <code>‘Portuguese’ =&gt; ‘Portugués’,</code>.</li>
+<li>Open the file <code>@app/messages/pt-BR/app.php</code> and add <code>‘Portuguese’ =&gt; ‘Português’,</code>.</li>
+</ol>
+        <div class="toplink"><a href="#" class="h1" title="go to top"><span class="glyphicon glyphicon-arrow-up"></a></div>
+    </div>
+</div>
+
+    </div>
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="pull-left">&copy; Easy forms 2015 - 2017</p>
+        <p class="pull-right">
+            <small>Page generated on Tue, 20 Jun 2017 16:40:42 +0000</small>
+        </p>
+    </div>
+</footer>
+
+<script type="text/javascript">jQuery(document).ready(function () {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>
