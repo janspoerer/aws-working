@@ -1681,3 +1681,154 @@
 [17-Sep-2018 20:08:24 UTC] PHP Stack trace:
 [17-Sep-2018 20:08:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
 [17-Sep-2018 20:08:24 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 09:25:33 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2317
+[18-Sep-2018 09:25:33 UTC] PHP Stack trace:
+[18-Sep-2018 09:25:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 09:25:33 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 09:25:33 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 09:25:33 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 09:27:22 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2317
+[18-Sep-2018 09:27:22 UTC] PHP Stack trace:
+[18-Sep-2018 09:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 09:27:22 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 09:27:22 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 09:27:22 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 09:27:30 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2317
+[18-Sep-2018 09:27:30 UTC] PHP Stack trace:
+[18-Sep-2018 09:27:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 09:27:30 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 09:27:30 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 09:27:30 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 09:27:46 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2317
+[18-Sep-2018 09:27:46 UTC] PHP Stack trace:
+[18-Sep-2018 09:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 09:27:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 09:27:46 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 09:27:46 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 09:27:48 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2317
+[18-Sep-2018 09:27:48 UTC] PHP Stack trace:
+[18-Sep-2018 09:27:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 09:27:48 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 09:27:48 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 09:27:48 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 13:00:28 UTC] PHP Fatal error:  Call to undefined function console_log() in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2337
+[18-Sep-2018 13:00:28 UTC] PHP Stack trace:
+[18-Sep-2018 13:00:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 13:00:28 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 13:00:28 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 13:00:28 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 13:56:09 UTC] PHP Parse error:  syntax error, unexpected '$file' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2331
+[18-Sep-2018 13:56:09 UTC] PHP Stack trace:
+[18-Sep-2018 13:56:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 13:56:09 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 14:19:55 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2385
+[18-Sep-2018 14:19:55 UTC] PHP Stack trace:
+[18-Sep-2018 14:19:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 14:19:55 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 15:19:10 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 5
+[18-Sep-2018 15:19:10 UTC] PHP Stack trace:
+[18-Sep-2018 15:19:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 15:19:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 15:22:49 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 5
+[18-Sep-2018 15:22:49 UTC] PHP Stack trace:
+[18-Sep-2018 15:22:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 15:22:49 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 15:23:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/crm/index.php on line 317
+[18-Sep-2018 15:23:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/crm/index.php on line 317
+[18-Sep-2018 15:23:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/crm/index.php on line 317
+[18-Sep-2018 15:24:23 UTC] PHP Fatal error:  require(): Failed opening required '~/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/index.php on line 317
+[18-Sep-2018 15:24:23 UTC] PHP Stack trace:
+[18-Sep-2018 15:24:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 15:24:24 UTC] PHP Fatal error:  require(): Failed opening required '~/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/index.php on line 317
+[18-Sep-2018 15:24:24 UTC] PHP Stack trace:
+[18-Sep-2018 15:24:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 15:30:42 UTC] PHP Fatal error:  require(): Failed opening required '~/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/index.php on line 317
+[18-Sep-2018 15:30:42 UTC] PHP Stack trace:
+[18-Sep-2018 15:30:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 15:30:46 UTC] PHP Fatal error:  require(): Failed opening required '~/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/index.php on line 317
+[18-Sep-2018 15:30:46 UTC] PHP Stack trace:
+[18-Sep-2018 15:30:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 15:30:46 UTC] PHP Fatal error:  require(): Failed opening required '~/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/index.php on line 317
+[18-Sep-2018 15:30:46 UTC] PHP Stack trace:
+[18-Sep-2018 15:30:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 15:30:56 UTC] PHP Fatal error:  require(): Failed opening required '~/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/index.php on line 317
+[18-Sep-2018 15:30:56 UTC] PHP Stack trace:
+[18-Sep-2018 15:30:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 15:30:57 UTC] PHP Fatal error:  require(): Failed opening required '~/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/index.php on line 317
+[18-Sep-2018 15:30:57 UTC] PHP Stack trace:
+[18-Sep-2018 15:30:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 15:32:07 UTC] PHP Fatal error:  Class 'Aws\S3\S3Client' not found in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2329
+[18-Sep-2018 15:32:07 UTC] PHP Stack trace:
+[18-Sep-2018 15:32:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 15:32:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 15:32:07 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 15:32:07 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 15:45:19 UTC] PHP Fatal error:  Class 'Aws\S3\S3Client' not found in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2329
+[18-Sep-2018 15:45:19 UTC] PHP Stack trace:
+[18-Sep-2018 15:45:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 15:45:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 15:45:19 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 15:45:19 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 15:48:59 UTC] PHP Fatal error:  Class 'Aws\S3\S3Client' not found in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2330
+[18-Sep-2018 15:48:59 UTC] PHP Stack trace:
+[18-Sep-2018 15:48:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 15:48:59 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 15:48:59 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 15:48:59 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 15:49:20 UTC] PHP Warning:  The use statement with non-compound name 'Aws' has no effect in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 3
+[18-Sep-2018 15:49:20 UTC] PHP Stack trace:
+[18-Sep-2018 15:49:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 15:49:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 15:49:20 UTC] PHP Parse error:  syntax error, unexpected '/', expecting ',' or ';' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 3
+[18-Sep-2018 15:49:20 UTC] PHP Stack trace:
+[18-Sep-2018 15:49:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 15:49:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 15:50:01 UTC] PHP Fatal error:  Class 'Aws\S3\S3Client' not found in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2329
+[18-Sep-2018 15:50:01 UTC] PHP Stack trace:
+[18-Sep-2018 15:50:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 15:50:01 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 15:50:01 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 15:50:01 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 16:00:00 UTC] PHP Fatal error:  Class 'Aws\S3\S3Client' not found in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2329
+[18-Sep-2018 16:00:00 UTC] PHP Stack trace:
+[18-Sep-2018 16:00:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 16:00:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 16:00:00 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 16:00:00 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 16:00:15 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/crm/vendor/autoload2.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/index.php on line 317
+[18-Sep-2018 16:00:15 UTC] PHP Stack trace:
+[18-Sep-2018 16:00:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 16:01:10 UTC] PHP Fatal error:  Class 'Aws\S3\S3Client' not found in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2329
+[18-Sep-2018 16:01:10 UTC] PHP Stack trace:
+[18-Sep-2018 16:01:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 16:01:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 16:01:10 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 16:01:10 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 16:06:53 UTC] PHP Fatal error:  Class 'Aws\S3\S3Client' not found in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2329
+[18-Sep-2018 16:06:53 UTC] PHP Stack trace:
+[18-Sep-2018 16:06:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 16:06:53 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 16:06:53 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 16:06:53 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 16:07:51 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/crm/vendor/autoload2.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/index.php on line 317
+[18-Sep-2018 16:07:51 UTC] PHP Stack trace:
+[18-Sep-2018 16:07:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 16:09:48 UTC] PHP Fatal error:  Class 'Aws\S3\S3Client' not found in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2329
+[18-Sep-2018 16:09:48 UTC] PHP Stack trace:
+[18-Sep-2018 16:09:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 16:09:48 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 16:09:48 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 16:09:48 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 16:13:59 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/crm/system//home/ubuntu/workspace/crm/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/crm/index.php on line 317
+[18-Sep-2018 16:13:59 UTC] PHP Stack trace:
+[18-Sep-2018 16:13:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 16:14:21 UTC] PHP Fatal error:  Class 'Aws\S3\S3Client' not found in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2329
+[18-Sep-2018 16:14:21 UTC] PHP Stack trace:
+[18-Sep-2018 16:14:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 16:14:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:315
+[18-Sep-2018 16:14:21 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 16:14:21 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[18-Sep-2018 17:16:46 UTC] PHP Parse error:  syntax error, unexpected '$fileid' (T_VARIABLE) in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2364
+[18-Sep-2018 17:16:46 UTC] PHP Stack trace:
+[18-Sep-2018 17:16:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 17:16:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318

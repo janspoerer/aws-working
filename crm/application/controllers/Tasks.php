@@ -1,5 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
+use Aws\S3\S3Client;
+use Aws\Common\Aws;
+
 class Tasks extends CI_Controller 
 {
 
@@ -2317,18 +2320,46 @@ class Tasks extends CI_Controller
 		$folderid = 1; // Maybe change this?
 		
 		// RM process reads PDF from here
-		$RM_PATH = '/var/www/sinpexapp/crm/rm_input/1';
+		$RM_PATH = '/home/ubuntu/workspace/crm/uploads/';
+		
+		$bucket = 'rapidminersinpex'; // 
+		
+		$aws = Aws::factory(array(
+		    'region'  => 'eu-central-1',
+		    'profile' => 'sinpex',
+		    'signature' => 'v4'
+		));
 		
 		if(isset($_FILES['file'])) {
 
 		    $file = $_FILES['file'];
+		    move_uploaded_file($file['tmp_name'], $RM_PATH . $file['name']);
+		    
+		    // write file to S3
+		    $client = $aws->get('S3');
+		    
+		    //$client->createBucket(array('Bucket' => 'sinpexFirstBucket'));
+	    	
+	    	// Poll the bucket until it is accessible
+			//$client->waitUntil('BucketExists', array('Bucket' => 'sinpexFirstBucket'));
+			
+			$result = $client->putObject(array(
+			    'Bucket'	=> $bucket,
+			    'Key'   	=> $file['name'],
+			    'SourceFile'=> $RM_PATH . $file['name'],
+			));
+			
+			$client->waitUntil('ObjectExists', array( # Wait until stored at S3
+			    'Bucket' => $bucket,
+			    'Key'    => $file['name']
+			));
 		    
 		    // Save upload to disk
-		    @unlink($RM_PATH);
-		    @copy($file['tmp_name'], $RM_PATH);
-		    @copy($file['tmp_name'], '/var/www/sinpexapp/crm/uploads/' . $file['name']);
+		    //@unlink($RM_PATH);
+		    //copy($file['tmp_name'], $RM_PATH);
+		    //copy($file['tmp_name'], '/var/www/sinpexapp/crm/uploads/' . $file['name']);
 
-		    if(file_exists($RM_PATH)) {
+		    //if(file_exists($RM_PATH)) {
 		    	// Write file to DB
     			$fileid = $this->file_model->add_file(array(
 	            	"file_name" => $file['name'],
@@ -2342,23 +2373,28 @@ class Tasks extends CI_Controller
 	            	"timestamp" => time()
 	            	)
 	            );
+	            
 	            // Assign file to task
 	            $this->task_model->add_file(array(
 					"fileid" => $fileid,
 					"taskid" => $taskid
 					)
 				);
-            	
-            	
-            	// Rewrite answers to db
-            	// TODO
-            	$fields = [  // For each field ID one process
-            		14 => 'test',
-            		//21 => 'provideDetails',
-            		];
-            	
-            	$formid = $this->task_model->get_form_data($taskid)->formid;
-				$leadid =  $this->task_model->get_lead_id($formid, $taskid);
+				
+		      	// Rewrite answers to db
+		      	// TODO
+		      	$fields = [  // For each field ID one process
+		      		// Replaced following line with the line thereafter
+		      		// 14 => 'test',
+		      		$taskid => 'test',
+		      		
+		      		// Replaced following line with the line thereafter
+		      		//21 => 'provideDetails',
+		      		$taskid => 'test'
+		      		];
+      	
+		      	$formid = $this->task_model->get_form_data($taskid)->formid;
+				$leadid = $this->task_model->get_lead_id($formid, $taskid);
 				
 				if($leadid == 0) {
 					$out = ['error' => 'Questionaire needs to be filled first'];
@@ -2379,12 +2415,13 @@ class Tasks extends CI_Controller
 				        	],
 			        ];
 				}
-		    } else {
-		        $out = ['error' => 'Uploaded file could not be written to RM input'];
-		    }
+		    //} else {
+		        //$out = ['error' => 'Uploaded file could not be written to RM input'];
+		    //}
 		} else {
 		    $out = ['error' => 'No file uploaded'];
 		}
+		
 		$this->output
 	        ->set_content_type('application/json')
 	        ->set_output(json_encode($out));
@@ -2394,12 +2431,16 @@ class Tasks extends CI_Controller
 // RM Client
 function call_rm_api($process) {
 	
-	$API_USER = "api";
-	$API_PASSWORD = "sinpex123";
+	$API_USER = "admin";
+	$API_PASSWORD = "testtest";
 	$API_DOMAIN = "app.sinpex.de";
 
+	// TODO most likely this one is the new link:
+	//$url = "http://ip-172-31-2-78.us-east-2.compute.internal:8080/api/rest/process/foreign_exchange?filename=$process";
+	
+	// the old way... see above the new link
 	$url = "http://$API_USER:$API_PASSWORD@$API_DOMAIN:8080/api/rest/process/call%20web%20api?filename=$process";
-	$res = file_get_contents($url);
+	$res = NULL; //file_get_contents($url);
 	
 	if(!$res) {
 		$out = array('error' => 'Could not retrieve answer from RM server');

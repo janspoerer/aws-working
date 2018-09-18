@@ -305,6 +305,9 @@ switch (ENVIRONMENT)
 
 	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
 
+//if(!@include(BASEPATH.'../vendor/autoload.php')) throw new Exception("Failed to include 'script.php'");
+include(BASEPATH.'../vendor/autoload.php');
+
 /*
  * --------------------------------------------------------------------
  * LOAD THE BOOTSTRAP FILE

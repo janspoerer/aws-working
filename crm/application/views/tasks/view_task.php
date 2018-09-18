@@ -240,6 +240,7 @@ $statusmsg = lang("ctn_834");
   <div  id="submitToRM" data-taskid="<?php echo $task->ID ?>" data-projectid="<?php echo $task->projectid ?>">
     <input class="btn btn-success btn-xy" type="file" title="Upload &amp; Analyse">
   </div>
+  <div>ProjectID: <?php echo $task->projectid ?>; TaskID: <?php echo $task->ID ?></div>
 
 </div>
 
