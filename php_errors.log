@@ -1832,3 +1832,59 @@
 [18-Sep-2018 17:16:46 UTC] PHP Stack trace:
 [18-Sep-2018 17:16:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
 [18-Sep-2018 17:16:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318
+[18-Sep-2018 21:28:03 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2449
+[18-Sep-2018 21:28:03 UTC] PHP Stack trace:
+[18-Sep-2018 21:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 21:28:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318
+[18-Sep-2018 21:28:41 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2449
+[18-Sep-2018 21:28:41 UTC] PHP Stack trace:
+[18-Sep-2018 21:28:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 21:28:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318
+[18-Sep-2018 21:28:44 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2449
+[18-Sep-2018 21:28:44 UTC] PHP Stack trace:
+[18-Sep-2018 21:28:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 21:28:44 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318
+[18-Sep-2018 21:29:16 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2449
+[18-Sep-2018 21:29:16 UTC] PHP Stack trace:
+[18-Sep-2018 21:29:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 21:29:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318
+[18-Sep-2018 21:29:20 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2449
+[18-Sep-2018 21:29:20 UTC] PHP Stack trace:
+[18-Sep-2018 21:29:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 21:29:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318
+[18-Sep-2018 21:29:20 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2449
+[18-Sep-2018 21:29:20 UTC] PHP Stack trace:
+[18-Sep-2018 21:29:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 21:29:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318
+[18-Sep-2018 21:29:21 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2449
+[18-Sep-2018 21:29:21 UTC] PHP Stack trace:
+[18-Sep-2018 21:29:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 21:29:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318
+[18-Sep-2018 21:40:43 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2447
+[18-Sep-2018 21:40:43 UTC] PHP Stack trace:
+[18-Sep-2018 21:40:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 21:40:43 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318
+[18-Sep-2018 21:41:34 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2447
+[18-Sep-2018 21:41:34 UTC] PHP Stack trace:
+[18-Sep-2018 21:41:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[18-Sep-2018 21:41:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318
+[21-Sep-2018 12:21:17 UTC] PHP Fatal error:  Wrong parameters for Exception([string $exception [, long $code [, Exception $previous = NULL]]]) in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2385
+[21-Sep-2018 12:21:17 UTC] PHP Stack trace:
+[21-Sep-2018 12:21:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[21-Sep-2018 12:21:17 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318
+[21-Sep-2018 12:21:17 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[21-Sep-2018 12:21:17 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[21-Sep-2018 12:21:17 UTC] PHP   5. Exception->__construct() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:2385
+[21-Sep-2018 12:27:39 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2460
+[21-Sep-2018 12:27:39 UTC] PHP Stack trace:
+[21-Sep-2018 12:27:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[21-Sep-2018 12:27:39 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318
+[21-Sep-2018 12:27:39 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[21-Sep-2018 12:27:39 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[21-Sep-2018 12:27:39 UTC] PHP   5. Tasks->call_rm_api() /home/ubuntu/workspace/crm/application/controllers/Tasks.php:2379
+[21-Sep-2018 13:52:47 UTC] PHP Fatal error:  Call to undefined function hasOwnProperty() in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2380
+[21-Sep-2018 13:52:47 UTC] PHP Stack trace:
+[21-Sep-2018 13:52:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[21-Sep-2018 13:52:47 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318
+[21-Sep-2018 13:52:47 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[21-Sep-2018 13:52:47 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532

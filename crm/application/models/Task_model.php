@@ -652,7 +652,21 @@ class Task_Model extends CI_Model
 	}
 	
 
-
+	public function get_lead_fields($leadid) {
+		return $this->db
+			->where("leadid", $leadid)
+			->select("fieldid")
+			->get("user_lead_fields")
+			->result();
+			
+		//$out = ' EMPTY-';
+			
+		//foreach($res->result() as $row){
+		//	$out = $out . $row->fieldid . ' - ';
+		//}
+		
+		//return $out;
+	}
 
 }
 

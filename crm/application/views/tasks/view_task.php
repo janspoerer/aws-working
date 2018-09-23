@@ -235,10 +235,10 @@ $statusmsg = lang("ctn_834");
     
   <!-- RM UPLOAD -->  
   <div class="db-header clearfix">
-      <div class="task-header-title"> <span class="glyphicon glyphicon-file"></span> Upload &amp; Analyse <img src="<?php echo base_url() ?>images/loading.gif" id="rm-loading" style="display: none"></div>
+      <div class="task-header-title"> <span class="glyphicon glyphicon-file"></span> Upload &amp; Analysis <img src="<?php echo base_url() ?>images/loading.gif" id="rm-loading" style="display: none"></div>
   </div>
   <div  id="submitToRM" data-taskid="<?php echo $task->ID ?>" data-projectid="<?php echo $task->projectid ?>">
-    <input class="btn btn-success btn-xy" type="file" title="Upload &amp; Analyse">
+    <input class="btn btn-success btn-xy" type="file" title="Upload &amp; Analysis">
   </div>
   <div>ProjectID: <?php echo $task->projectid ?>; TaskID: <?php echo $task->ID ?></div>
 

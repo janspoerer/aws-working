@@ -5,6 +5,7 @@ use Aws\Common\Aws;
 
 class Tasks extends CI_Controller 
 {
+	protected $aws;
 
 	public function __construct() 
 	{
@@ -15,6 +16,11 @@ class Tasks extends CI_Controller
 		$this->load->model("projects_model");
 		$this->load->model("file_model");
 		
+		$this->aws = Aws::factory(array(
+		    'region'  => 'eu-central-1',
+		    'profile' => 'sinpex',
+		    'signature' => 'v4'
+		));
 
 		if(!$this->user->loggedin) $this->template->error(lang("error_1"));
 
@@ -2322,44 +2328,17 @@ class Tasks extends CI_Controller
 		// RM process reads PDF from here
 		$RM_PATH = '/home/ubuntu/workspace/crm/uploads/';
 		
-		$bucket = 'rapidminersinpex'; // 
-		
-		$aws = Aws::factory(array(
-		    'region'  => 'eu-central-1',
-		    'profile' => 'sinpex',
-		    'signature' => 'v4'
-		));
+		$bucket = 'rapidminersinpex'; // bucket name on S3
 		
 		if(isset($_FILES['file'])) {
 
 		    $file = $_FILES['file'];
 		    move_uploaded_file($file['tmp_name'], $RM_PATH . $file['name']);
-		    
-		    // write file to S3
-		    $client = $aws->get('S3');
-		    
-		    //$client->createBucket(array('Bucket' => 'sinpexFirstBucket'));
-	    	
-	    	// Poll the bucket until it is accessible
-			//$client->waitUntil('BucketExists', array('Bucket' => 'sinpexFirstBucket'));
-			
-			$result = $client->putObject(array(
-			    'Bucket'	=> $bucket,
-			    'Key'   	=> $file['name'],
-			    'SourceFile'=> $RM_PATH . $file['name'],
-			));
-			
-			$client->waitUntil('ObjectExists', array( # Wait until stored at S3
-			    'Bucket' => $bucket,
-			    'Key'    => $file['name']
-			));
-		    
-		    // Save upload to disk
-		    //@unlink($RM_PATH);
-		    //copy($file['tmp_name'], $RM_PATH);
-		    //copy($file['tmp_name'], '/var/www/sinpexapp/crm/uploads/' . $file['name']);
 
-		    //if(file_exists($RM_PATH)) {
+		    if(file_exists($RM_PATH)) {
+		    	// write file to S3
+		    	$this->upload_file_to_aws($bucket, $file['name'], $RM_PATH . $file['name']);
+		    
 		    	// Write file to DB
     			$fileid = $this->file_model->add_file(array(
 	            	"file_name" => $file['name'],
@@ -2380,76 +2359,137 @@ class Tasks extends CI_Controller
 					"taskid" => $taskid
 					)
 				);
-				
-		      	// Rewrite answers to db
-		      	// TODO
-		      	$fields = [  // For each field ID one process
-		      		// Replaced following line with the line thereafter
-		      		// 14 => 'test',
-		      		$taskid => 'test',
-		      		
-		      		// Replaced following line with the line thereafter
-		      		//21 => 'provideDetails',
-		      		$taskid => 'test'
-		      		];
       	
-		      	$formid = $this->task_model->get_form_data($taskid)->formid;
+      	$formid = $this->task_model->get_form_data($taskid)->formid;
 				$leadid = $this->task_model->get_lead_id($formid, $taskid);
+				
+				// get real field ids for update answers
+				$fields = $this->task_model->get_lead_fields($leadid);
+				$answers = array(
+					11 => null,
+					12 => null
+					);
+				$error = false;
 				
 				if($leadid == 0) {
 					$out = ['error' => 'Questionaire needs to be filled first'];
 				} else {
 		            // Call RM API
-	        		foreach($fields as $fieldid => $process) {
-	        			$rm_res = call_rm_api($process);
-	        			// TODO handle API response
-	        			$this->task_model->update_user_lead_answer($leadid, $fieldid, '---- some answer from RM process --- ' . time()); // $rm_res['answer']
+	        		foreach($fields as $fieldid) {
+	        			$rm_res = $this->call_rm_api($fieldid->fieldid, $file['name']);
+	        			if (!is_array($rm_res)){
+	        				$this->task_model->update_user_lead_answer($leadid, $fieldid->fieldid, $rm_res);
+	        				$answers[$fieldid->fieldid] = $rm_res;
+	        			} else {
+	        				$this->task_model->update_user_lead_answer($leadid, $fieldid->fieldid, "Error");
+	        				$answers[$fieldid->fieldid] = $rm_res['error'];
+	        				$error = true;
+	        			}
 	        		}
-            	
-			        $out = [
-				        'file' => $file,
-				        'fileid' => $fileid,
-				        'answers' => [
-				        	// TODO
-				        	'dummy answer'
-				        	],
-			        ];
 				}
-		    //} else {
-		        //$out = ['error' => 'Uploaded file could not be written to RM input'];
-		    //}
+				
+				//$this->task_model->get_test($leadid);
+				
+				//throw new Exception(json_encode($answers));//json_encode($answers));
+				
+				if (!$error){
+					$out = [
+						'file' => $file,
+						'answers' => $answers
+						];
+				} else {
+					$out = [
+						'error' => json_encode($answers),
+						'file' => $file,
+						'answers' => $answers
+						];	
+				}
+		    } else {
+		        $out = ['error' => 'Uploaded file could not be written to RM input'];
+		    }
 		} else {
-		    $out = ['error' => 'No file uploaded'];
+		    $out = ['error' => 'No file selected for the upload.'];
 		}
 		
 		$this->output
 	        ->set_content_type('application/json')
 	        ->set_output(json_encode($out));
 	}
-}
-
-// RM Client
-function call_rm_api($process) {
 	
-	$API_USER = "admin";
-	$API_PASSWORD = "testtest";
-	$API_DOMAIN = "app.sinpex.de";
-
-	// TODO most likely this one is the new link:
-	//$url = "http://ip-172-31-2-78.us-east-2.compute.internal:8080/api/rest/process/foreign_exchange?filename=$process";
-	
-	// the old way... see above the new link
-	$url = "http://$API_USER:$API_PASSWORD@$API_DOMAIN:8080/api/rest/process/call%20web%20api?filename=$process";
-	$res = NULL; //file_get_contents($url);
-	
-	if(!$res) {
-		$out = array('error' => 'Could not retrieve answer from RM server');
-	} else {
-		$out = json_decode($res);
+	private function upload_file_to_aws($bucket, $filename, $sourcepath) {
+		// write file to S3
+	    $client = $this->aws->get('S3');
+	    
+	    $info = $client->doesObjectExist($bucket, $filename);
+	    
+	    if (!$info) { // file not exists yet
+	    	$result = $client->putObject(array(
+			    'Bucket'	=> $bucket,
+			    'Key'   	=> $filename,
+			    'SourceFile'=> $sourcepath,
+			));
+			
+			$client->waitUntil('ObjectExists', array( # Wait until stored at S3
+			    'Bucket' => $bucket,
+			    'Key'    => $filename
+			));
+	    }
 	}
 	
-	return $res;
+	// RM Client
+	private function call_rm_api($fieldid, $file) {
+		
+		$API_USER = "admin";
+		$API_PASSWORD = "testtest";
+		$API_DOMAIN = "app.sinpex.de";
+		$API_Q1 = "01_Country";
+		$API_Q2 = "02_Foreign_Exchange";
+		$API_Q3 = "03_Insurance";
+	
+		$url = '';
+		$key = '';
+		
+		if ($fieldid == 11) {
+			$url = "http://$API_USER:$API_PASSWORD@$API_DOMAIN:8080/api/rest/process/$API_Q1?filename=$file";
+			// JAN SPÖRER: Next line added
+			$key = 'prediction(Label: Country)';
+ 		} else if ($fieldid == 12) {
+			$url = "http://$API_USER:$API_PASSWORD@$API_DOMAIN:8080/api/rest/process/$API_Q2?filename=$file";
+			$key = 'prediction(Label: Foreign exchanges)';
+		} else if ($fieldid == 13) {
+			$url = "http://$API_USER:$API_PASSWORD@$API_DOMAIN:8080/api/rest/process/$API_Q3?filename=$file";
+			$key = 'prediction(Label: Insurance)';
+		} else {
+			return '';
+		}
+		
+		//fake test
+		//if ($fieldid == 11) {
+		//	return "DDR";	
+		//} else if ($fieldid == 12) {
+		//	return "No";
+		//}
+		
+		$res = file_get_contents($url);
+		if($res === FALSE){
+			return array('error' => 'Could not retrieve answer from RM server. ' . json_encode($res));
+		}
+		
+		if(!$res) {
+			return array('error' => 'Could not retrieve answer from RM server');
+		}
+		
+		$out = json_decode($res, true);
+		
+		// JAN SPÖRER: Removed the following 3 lines because they probably don't access the element we need (nested array)
+		// if (!array_key_exists($key, $out)){
+		// 	return array('error' => json_encode($out));
+		// }
+		
+		// JAN SPÖRER: Replaced the following line by the line thereafter: https://stackoverflow.com/questions/17904648/nested-arrays-in-json
+		// return $out[$key];
+		return $out[0][$key];
+	}
 }
-
 
 ?>
