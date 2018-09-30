@@ -26,7 +26,7 @@
 </div>
 
 <div class="col-md-3">
-<div class="dashboard-window clearfix" style="background: #f0ad4e; border-left: 5px solid #d89b45;">
+<div class="dashboard-window clearfix" style="background: #d9534f; border-left: 5px solid #d89b45;">
 	<div class="d-w-icon">
 		<span class="glyphicon glyphicon-time giant-white-icon"></span>
 	</div>
@@ -37,7 +37,7 @@
 </div>
 
 <div class="col-md-3">
-<div class="dashboard-window clearfix" style="background: #d9534f; border-left: 5px solid #b94643;">
+<div class="dashboard-window clearfix" style="background: #f0ad4e; border-left: 5px solid #b94643;">
 	<div class="d-w-icon">
 		<span class="glyphicon glyphicon-user giant-white-icon"></span>
 	</div>
