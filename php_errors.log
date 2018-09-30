@@ -1888,3 +1888,7 @@
 [21-Sep-2018 13:52:47 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318
 [21-Sep-2018 13:52:47 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
 [21-Sep-2018 13:52:47 UTC] PHP   4. Tasks->submitToRM() /home/ubuntu/workspace/crm/system/core/CodeIgniter.php:532
+[26-Sep-2018 11:06:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/crm/application/controllers/Tasks.php on line 2491
+[26-Sep-2018 11:06:56 UTC] PHP Stack trace:
+[26-Sep-2018 11:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/crm/index.php:0
+[26-Sep-2018 11:06:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/crm/index.php:318

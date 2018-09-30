@@ -2151,7 +2151,6 @@ class Tasks extends CI_Controller
 			)
 		);
 
-
 		// Redirect
 		$this->session->set_flashdata("globalmsg", 
 			lang("success_91"));
@@ -2357,7 +2356,7 @@ class Tasks extends CI_Controller
 	            $this->task_model->add_file(array(
 					"fileid" => $fileid,
 					"taskid" => $taskid
-					)
+					) 
 				);
       	
       	$formid = $this->task_model->get_form_data($taskid)->formid;
@@ -2433,6 +2432,7 @@ class Tasks extends CI_Controller
 			    'Bucket' => $bucket,
 			    'Key'    => $filename
 			));
+			console.log('Upload completed');
 	    }
 	}
 	
@@ -2487,8 +2487,8 @@ class Tasks extends CI_Controller
 		// }
 		
 		// JAN SPÖRER: Replaced the following line by the line thereafter: https://stackoverflow.com/questions/17904648/nested-arrays-in-json
-		// return $out[$key];
-		return $out[0][$key];
+		return $out[$key];
+		//return $out[0][$key];
 	}
 }
 

@@ -57,8 +57,6 @@ $(document).ready(function() {
       $('#rm-loading').hide();
       alert('Error - Provided file type is not supported.');
     }
-
     // ... More callbacks
   });
-
 });

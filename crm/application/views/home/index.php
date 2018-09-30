@@ -595,8 +595,8 @@ var myPieChart = new Chart($("#projectTypesChart"),{
                     <?php echo $prj->complete ?>, <?php echo 100-$prj->complete ?>
                 ],
                 backgroundColor: [
-                    "#5cb85c",
                     "#d9534f",
+                    "#5cb85c",
                 ],
                 label: '<?php echo $prj->name ?>'
             }],
