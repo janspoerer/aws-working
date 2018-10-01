@@ -2356,7 +2356,7 @@ class Tasks extends CI_Controller
 	            $this->task_model->add_file(array(
 					"fileid" => $fileid,
 					"taskid" => $taskid
-					) 
+					)
 				);
       	
       	$formid = $this->task_model->get_form_data($taskid)->formid;
@@ -2417,23 +2417,22 @@ class Tasks extends CI_Controller
 	
 	private function upload_file_to_aws($bucket, $filename, $sourcepath) {
 		// write file to S3
-	    $client = $this->aws->get('S3');
-	    
-	    $info = $client->doesObjectExist($bucket, $filename);
-	    
-	    if (!$info) { // file not exists yet
-	    	$result = $client->putObject(array(
-			    'Bucket'	=> $bucket,
-			    'Key'   	=> $filename,
-			    'SourceFile'=> $sourcepath,
+    $client = $this->aws->get('S3');
+    
+    $info = $client->doesObjectExist($bucket, $filename);
+    
+    if (!$info) { // file not exists yet
+    	$result = $client->putObject(array(
+		    'Bucket'	=> $bucket,
+		    'Key'   	=> $filename,
+		    'SourceFile'=> $sourcepath,
 			));
-			
+		
 			$client->waitUntil('ObjectExists', array( # Wait until stored at S3
-			    'Bucket' => $bucket,
-			    'Key'    => $filename
+		    'Bucket' => $bucket,
+		    'Key'    => $filename
 			));
-			console.log('Upload completed');
-	    }
+    }
 	}
 	
 	// RM Client
@@ -2451,14 +2450,15 @@ class Tasks extends CI_Controller
 		
 		if ($fieldid == 11) {
 			$url = "http://$API_USER:$API_PASSWORD@$API_DOMAIN:8080/api/rest/process/$API_Q1?filename=$file";
-			// JAN SPÖRER: Next line added
 			$key = 'prediction(Label: Country)';
  		} else if ($fieldid == 12) {
 			$url = "http://$API_USER:$API_PASSWORD@$API_DOMAIN:8080/api/rest/process/$API_Q2?filename=$file";
 			$key = 'prediction(Label: Foreign exchanges)';
+			//return '';
 		} else if ($fieldid == 13) {
 			$url = "http://$API_USER:$API_PASSWORD@$API_DOMAIN:8080/api/rest/process/$API_Q3?filename=$file";
 			$key = 'prediction(Label: Insurance)';
+			//return '';
 		} else {
 			return '';
 		}
@@ -2468,7 +2468,9 @@ class Tasks extends CI_Controller
 		//	return "DDR";	
 		//} else if ($fieldid == 12) {
 		//	return "No";
-		//}
+		//} else if ($fieldid == 13) {
+		//	return "Interesting";
+		//} 
 		
 		$res = file_get_contents($url);
 		if($res === FALSE){
@@ -2486,10 +2488,14 @@ class Tasks extends CI_Controller
 		// 	return array('error' => json_encode($out));
 		// }
 		
-		// JAN SPÖRER: Replaced the following line by the line thereafter: https://stackoverflow.com/questions/17904648/nested-arrays-in-json
 		return $out[$key];
-		//return $out[0][$key];
 	}
 }
+
+// http://app.sinpex.de:8080/api/rest/process/01_Country?filename=2016-Bank_of_New_Jersey.pdf
+
+// http://app.sinpex.de:8080/api/rest/process/02_Foreign_Exchange?filename=2016-Bank_of_New_Jersey.pdf
+
+// http://app.sinpex.de:8080/api/rest/process/03_Insurance?filename=2016-Bank_of_New_Jersey.pdf
 
 ?>
